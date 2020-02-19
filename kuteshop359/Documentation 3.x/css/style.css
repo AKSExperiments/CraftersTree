@@ -1,0 +1,906 @@
+/*
+Theme Name: Kute Docs
+Theme URI: kutethemes.net
+Description: A documentation theme by KuteTheme
+Version: 1.0.0
+Author: TruongTuyen
+Author URI: kutethemes.net
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: documentation
+Text Domain: kutedocs
+*/
+/* ==========================================================================
+    Base
+    ========================================================================== */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #f5f7fa;
+}
+a {
+  color: #258cd1;
+}
+a:hover {
+  color: #217dbc;
+}
+/* ==========================================================================
+    Header
+    ========================================================================== */
+.banner {
+  background-color: #3598db;
+  border: none;
+  margin-bottom: 0;
+}
+body.banner{
+    background:#f5f7fa;
+}
+.banner .navbar-header .navbar-brand {
+  color: #fff;
+}
+
+.banner .navbar-nav {
+  float: right;
+}
+.banner .navbar-nav li > a {
+  color: #fff;
+}
+.banner .navbar-nav li > a:hover,
+.banner .navbar-nav li > a:focus {
+  color: #fff;
+  background-color: #217dbc;
+}
+.banner .navbar-nav .active a,
+.banner .navbar-nav .active a:hover,
+.banner .navbar-nav .active a:focus {
+  color: #fff;
+  background-color: #217dbc;
+}
+.banner .navbar-nav .dropdown-menu a {
+  background-color: #fff;
+  color: #777;
+}
+.banner .navbar-nav .dropdown-menu .active a,
+.banner .navbar-nav .dropdown-menu .active a:hover {
+  color: #fff;
+  background-color: #217dbc;
+}
+.banner .navbar-nav .open a:hover,
+.banner .navbar-nav .open a:focus {
+  color: #fff;
+  background-color: #217dbc;
+}
+.top-search-form {
+    margin-bottom: 35px;
+    padding: 110px 0;
+    background: #526006 url(assets/img/search-header.jpg) center 10% no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.top-search-form input.search-field {
+  background-repeat: no-repeat;
+  background-position: 15px 20px;
+  padding-left: 30px;
+  border-top-left-radius: 6px!important;
+  border-bottom-left-radius: 6px!important;
+}
+.top-search-form .form-control:focus:focus {
+  border-color: #3598db;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(53, 152, 219, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(53, 152, 219, 0.6);
+}
+.top-search-form .btn-primary {
+  background: #3598db;
+  border-color: #3598db;
+}
+
+.top-search-form .dropdown-toggle.btn-default:hover{
+  background-color: #fff;
+  border-color: #ccc;
+}
+.breadcrumb {
+  background: #fff;
+  color: #6D6D6D;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+.export_doc .breadcrumb{
+    background: transparent;
+}
+.breadcrumb i {
+  font-size: 15px;
+  padding-right: 5px;
+}
+.breadcrumb .sep {
+  font-size: 10px;
+  font-weight: normal;
+  padding: 0 5px;
+}
+.kutedocs-single-wrap .kutedocs-single-content ol.kutedocs-breadcrumb {
+  padding-left: 0;
+}
+.container .jumbotron {
+  text-align: center;
+  background: #f5f5f5;
+  border-radius: 0;
+}
+.container .jumbotron h1 {
+  font-weight: 300;
+}
+/* ==========================================================================
+    Content
+    ========================================================================== */
+ul.doc-category {
+  margin-bottom: 4em;
+  border: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+  list-style: none;
+  margin: 0 0 50px 0;
+  padding: 0;
+}
+ul.doc-category li.doc,
+ul.doc-category li.category {
+  width: 50%;
+  margin: 0;
+  float: left;
+  padding: 2em 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px dotted #ddd;
+  min-height: 110px;
+}
+ul.doc-category li.doc:nth-child(odd),
+ul.doc-category li.category:nth-child(odd) {
+  padding-right: 2em;
+  border-right: 1px dotted #ddd;
+  clear: both;
+}
+ul.doc-category li.doc:nth-child(even),
+ul.doc-category li.category:nth-child(even) {
+  padding-left: 2em;
+  border-left: 1px dotted #ddd;
+  margin-left: -1px;
+}
+ul.doc-category li.doc h3,
+ul.doc-category li.category h3 {
+  margin: 0;
+  position: relative;
+}
+ul.doc-category li.doc h3 a,
+ul.doc-category li.category h3 a {
+  font-size: 16px;
+  display: block;
+  padding-left: 30px;
+}
+ul.doc-category li.doc h3:before,
+ul.doc-category li.category h3:before {
+  color: rgba(37, 90, 140, 0.2);
+  font-family: 'FontAwesome';
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 100%;
+  width: 1.758em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "\f0b1";
+}
+ul.doc-category li.doc .inside,
+ul.doc-category li.category .inside {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+ul.doc-category li.doc .inside ul.child-cats,
+ul.doc-category li.category .inside ul.child-cats {
+  padding: 15px 0 0 20px;
+  clear: both;
+  display: block;
+}
+ul.doc-category li.doc .inside ul.child-cats > li,
+ul.doc-category li.category .inside ul.child-cats > li {
+  padding-bottom: 15px;
+  float: left;
+  width: 48%;
+  padding-right: 2%;
+  list-style: none;
+}
+ul.doc-category li.doc .inside ul.child-cats > li:nth-child(2n+1),
+ul.doc-category li.category .inside ul.child-cats > li:nth-child(2n+1) {
+  clear: both;
+}
+ul.doc-category li.doc .inside ul.child-cats > li > a,
+ul.doc-category li.category .inside ul.child-cats > li > a {
+  font-weight: bold;
+}
+ul.doc-category li.doc .inside ul.child-cats > li ul.children,
+ul.doc-category li.category .inside ul.child-cats > li ul.children {
+  padding: 5px 0 0 15px;
+}
+ul.doc-category li.doc h3:before {
+  content: "\f02d";
+}
+/* ==========================================================================
+    Primary Content
+    ========================================================================== */
+.main h2.category-title {
+  margin: 15px 0 20px 0;
+  font-weight: 300;
+}
+/* Gallery Shortcode */
+.gallery-row {
+  padding: 15px 0;
+}
+/* ==========================================================================
+    Sidebar
+    ========================================================================== */
+.sidebar h3 {
+  margin: 0 0 15px 0;
+  padding: 0 0 15px 0;
+  font-weight: 300;
+  border-bottom: 1px solid #eeeeee;
+}
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+aside.doc-nav-widget h3 {
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  margin: 0 0 15px 0;
+  padding: 0 0 15px 0;
+}
+aside.doc-nav-widget ul.doc-nav-list li a {
+  display: block;
+  padding: 8px 20px;
+}
+aside.doc-nav-widget ul.doc-nav-list li ul.children {
+  list-style: none;
+  margin: 15px 0 15px 26px;
+  padding: 0;
+  border: none;
+  border-left: 1px solid #ddd;
+  display: none;
+}
+aside.doc-nav-widget ul.doc-nav-list li ul.children a {
+  color: #333333;
+  font-weight: normal;
+  border-left: 5px solid transparent;
+}
+aside.doc-nav-widget ul.doc-nav-list > li.current_page_parent > a,
+aside.doc-nav-widget ul.doc-nav-list > li.current_page_item > a,
+aside.doc-nav-widget ul.doc-nav-list > li.current_page_ancestor > a {
+  background: #3598db;
+  color: #fff;
+}
+aside.doc-nav-widget ul.doc-nav-list > li.current_page_parent li.current_page_item > a,
+aside.doc-nav-widget ul.doc-nav-list > li.current_page_item li.current_page_item > a,
+aside.doc-nav-widget ul.doc-nav-list > li.current_page_ancestor li.current_page_item > a {
+  border-left: 5px solid #3598db;
+  color: #191919;
+  font-weight: bold;
+}
+aside.doc-nav-widget ul.doc-nav-list > li.current_page_parent ul.children,
+aside.doc-nav-widget ul.doc-nav-list > li.current_page_item ul.children,
+aside.doc-nav-widget ul.doc-nav-list > li.current_page_ancestor ul.children {
+  display: block;
+}
+/* ==========================================================================
+    Posts
+    ========================================================================== */
+.hentry {
+  position: relative;
+  min-height: 300px;
+}
+.hentry header,
+.page-header {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.hentry header h1,
+.page-header h1 {
+  margin: 0 0 25px 0;
+  padding: 0 0 25px 0;
+  font-weight: bold;
+  border-bottom: 1px solid #eeeeee;
+}
+.hentry .entry-content img {
+  max-width: 100%;
+  border: 1px solid #eeeeee;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 25px;
+  height: auto;
+  background: #F9F9F9;
+  display: block;
+}
+.hentry .entry-content .page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+.hentry .entry-content h2 {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+.hentry .entry-content h2:first-of-type {
+  margin-top: 20px;
+}
+.hentry .entry-content ol,
+.hentry .entry-content ul{
+  padding-left: 20px;
+}
+.hentry .entry-content ol li,
+.hentry .entry-content ul li {
+  padding: 5px 0;
+}
+.hentry .article-child {
+  margin-top: 25px;
+}
+.hentry .article-child h3 {
+  margin: 0 0 15px 0;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #eeeeee;
+  color: #616161;
+  font-weight: bold;
+}
+.wedoc-feedback-wrap {
+  padding-top: 15px;
+  text-align: center;
+  margin-top: 40px;
+}
+.wedoc-feedback-wrap span {
+  margin-right: 15px;
+}
+.wedoc-feedback-wrap a {
+  font-weight: bold;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+.wedoc-feedback-wrap a.positive {
+  color: #6a9c1f;
+  border: 1px solid #6a9c1f;
+}
+.wedoc-feedback-wrap a.negative {
+  color: #ac2d22;
+  border: 1px solid #ac2d22;
+}
+.single-docs .doc-single-content {
+  border-left: 1px solid #ddd;
+  padding-left: 25px;
+}
+.single-docs .doc-single-content.skip-sidebar {
+  padding-left: 15px;
+  border-left: 0;
+}
+/*
+ * Side navigation
+ *
+ * Scrollspy and affixed enhanced navigation to highlight sections and secondary
+ * sections of docs content.
+ */
+/* By default it's not affixed in mobile views, so undo that */
+.bs-sidebar {
+  position: static;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  position: fixed;
+  min-width: 150px;
+}
+.bs-sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+.bs-sidebar ul li {
+  border-bottom: 1px solid #ECECEC;
+}
+.bs-sidebar a {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #999;
+  padding: 8px 20px;
+}
+.bs-sidebar a:hover,
+.bs-sidebar a:focus {
+  color: #3598db;
+  text-decoration: none;
+  background-color: transparent;
+  border-left: 1px solid #3598db;
+}
+.bs-sidebar a .fa {
+  display: none;
+}
+.bs-sidebar .active a,
+.bs-sidebar .active a:hover,
+.bs-sidebar .active a:focus {
+  font-weight: bold;
+  color: #3598db;
+  background-color: transparent;
+  border-left: 2px solid #3598db;
+}
+/* ==========================================================================
+    Footer
+    ========================================================================== */
+.content-info {
+  padding: 1.5rem 0;
+  background: #333;
+  color: #999;
+}
+.content-info .widget-area {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+.content-info .widget {
+  padding-bottom: 15px;
+}
+.content-info .widget h3 {
+  border-bottom: 1px solid #2E2E2E;
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
+  font-weight: 300;
+}
+.content-info .widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.content-info .widget ul ul.children {
+  padding-left: 10px;
+}
+.content-info .widget ul li {
+  padding: 3px 0;
+}
+.content-info .widget a {
+  color: #777;
+}
+.content-info .copyright {
+  padding-top: 5px;
+}
+/* ==========================================================================
+    WordPress Generated Classes
+    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+    ========================================================================== */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-caption {
+  background: #fff;
+  border: none;
+  max-width: 96%;
+  /* Image does not overflow the content area */
+  padding: 0;
+  text-align: center;
+}
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+.wp-caption .wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+  background-color: #eee;
+}
+
+.kutedocs-single-content{
+    background: #fff;
+}
+
+.kutedocs-single-content .breadcrumb{
+    background-color: #f5f7fa;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 0;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.kutedocs-single-content article.docs{
+    padding: 10px;
+}
+.entry-content .article-child.well > ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.entry-content .article-child.well .page_item{
+    list-style: none;
+}
+.entry-content .article-child.well .page_item a{
+    position: relative;
+    padding-left: 18px;
+    font-weight: bold;
+}
+
+.wedocs-shortcode-wrap ul.wedocs-docs-list ul.wedocs-doc-sections{
+    margin-left: 0;
+    padding-left: 0;
+}
+.wedocs-shortcode-wrap ul.wedocs-docs-list ul.wedocs-doc-sections li{
+    list-style: none;
+    padding: 8px 0;
+}
+
+.wedocs-docs-list .wedocs-docs-single .wedocs-doc-sections li a{
+    position: relative;
+    padding-left: 18px;
+    font-weight: 600;
+}
+
+.wedocs-docs-list .wedocs-docs-single .wedocs-doc-sections li a::before,
+.entry-content .article-child.well .page_item a::before{
+    content: '\f0f6';
+    color: #c6c6c6;
+    font-family: FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single{
+    width: 31%;
+    margin-right: 3%;
+    margin-bottom: 30px;
+    background-color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 3px 20px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 3px 20px rgba(0,0,0,.05);
+    -o-box-shadow: 0 3px 20px rgba(0,0,0,.05);
+    box-shadow: 0 3px 20px rgba(0,0,0,.05);
+    border-color: #ecedef;
+}
+
+.wedocs-docs-list .wedocs-docs-single h3{
+    position: relative;
+    padding: 15px 12px 15px 55px;
+    font-size: 22px;
+}
+.wedocs-docs-list .wedocs-docs-single h3::before{
+    content: '\f115';
+    color: #616161;
+    font-family: FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    pointer-events: none;
+}
+.wedocs-docs-list .wedocs-docs-single h3 a{
+    color: #616161;
+}
+.wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single h3{
+    padding: 15px;
+    padding-left: 45px;
+}
+#top-search-form .btn-group-lg>.btn, .btn-lg {
+    padding: 17px 35px;
+}
+
+#top-search-form .search-field.input-lg{
+    height: 60px;
+}
+
+.wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li:nth-child(2n+1){
+    clear: none!important;
+}
+
+.wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li:nth-child(3n){
+    margin-right:0!important;
+}
+
+.wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li:nth-child(3n+1){
+    clear: both!important;
+}
+
+.article-child .page_item .children{
+    padding-left: 25px;
+}
+
+.copyright .pull-right a{
+    color: #fff;
+}
+
+.kutedocs-entry-footer{
+    text-align: right;
+    padding: 10px 0 25px 0;
+}
+
+.kutedocs-entry-footer time{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.kutedocs-article-author .author .author-name{
+    font-weight: bold;
+    color: #000;
+}
+
+.post-nav{
+    clear: both;
+    padding-top: 50px;
+}
+.contact-support-forum{
+    margin-top: 60px;
+    background: #516469 url('assets/img/forum-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 125px 0;
+    color:#fff;
+    text-align: center;
+}
+
+.contact-support-forum .contact_title{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.contact-support-forum .contact-button{
+    color: #fff;
+    background: #258cd1;
+    display: inline-block;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 15px 35px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+article.type-docs{
+    line-height: 28px;
+}
+
+article.type-docs .article-child.well{
+    line-height: 20px;
+}
+body.page {
+    background-color: #f9f9fb;
+}
+.page .doc-body{
+    position: relative;
+}
+.page .doc-sidebar{
+    width: 250px;
+    display: block;
+    float: left;
+}
+
+.page .doc-content{
+    float: right;
+    width: calc(100% - 290px );
+}
+#kute-doc-nav > ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+#kute-doc-nav ul li{
+    list-style: none;
+}
+
+#kute-doc-nav ul.children{
+    padding-left: 20px;
+}
+
+#kute-doc-nav li a{
+    display: block;
+    padding: 5px 15px;
+    border-left: 4px solid transparent;
+    color: #616670;
+    text-decoration: none;
+}
+
+.doc-body .doc-content img{
+    max-width: 100%;
+    height: auto;
+}
+.nav.doc-menu.affix-top{
+    width: 230px;
+}
+
+.sc-kutedocs-title{
+    font-weight: bold;
+    font-size: 24px;
+    padding: 5px 0 20px 0;
+}
+
+.view_static_doc{
+    color: #000;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+.home.page #top-search-form button.btn-lg{
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+
+.export_doc .doc-content {
+    line-height: 26px;
+}
+
+.export_doc .doc-content ul{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+/* ==========================================================================
+    Media Queries
+    ========================================================================== */
+@media (max-width: 991px){
+    .wedoc-feedback-wrap a.positive{
+        display: inline-block;
+    }
+}
+
+@media (max-width: 600px){
+    ul.doc-category li.doc{
+        width: 100%;
+    }
+    
+    ul.doc-category li.doc:nth-child(odd), ul.doc-category li.category:nth-child(odd){
+        border-right: 0;
+        padding-right: 0;
+    }
+    ul.doc-category li.doc:nth-child(even), ul.doc-category li.category:nth-child(even){
+        border-left: 0;
+        padding-left: 0;
+    }
+}
+@media (max-width: 767px) {
+  .banner .navbar-nav {
+    float: none;
+  }
+  
+  .navbar-header{
+    padding-left: 15px;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar{
+    background: #fff;
+  }
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #555;
+        border-color: #555;
+   }
+   
+   footer.content-info .copy-text,
+   footer.content-info .pull-right{
+        width: 100%;
+        display: block;
+        text-align: center;
+   }
+   
+   .wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single{
+        width: 48%!important;
+   }
+   
+   .wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li:nth-child(2n){
+        margin-right: 0;
+        float: right;
+   }
+   
+   .wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li:nth-child(2n+1) {
+        clear: both!important;
+    }
+    
+    .wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li:nth-child(3n+1) {
+        clear: none!important;
+    }
+   
+}
+
+@media (max-width: 560px) {
+    .wedocs-shortcode-wrap ul.wedocs-docs-list li.wedocs-docs-single{
+        width: 100%!important;
+   }
+   
+   .wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li:nth-child(3n+1),
+   .wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li:nth-child(2n+1),
+   .wedocs-shortcode-wrap ul.wedocs-docs-list.col-2 > li:nth-child(2n) {
+        clear: both!important;
+    }
+}
+
+@media (max-width: 400px) {
+  .banner .navbar-header .navbar-brand{
+    background-position: center center!important;     
+  }
+}
+
+@media (max-width: 500px) {
+  .top-search-form .search-form .input-group{
+    display: block;
+  }
+  .top-search-form input.search-field{
+    border-top-right-radius: 6px!important;
+    border-bottom-right-radius: 6px!important;
+  }
+  
+  .top-search-form input.search-field::placeholder{
+    text-align: center;
+  }
+  
+  .top-search-form .dropdown-toggle.btn-default,
+  .top-search-form button[type="submit"]{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 6px!important;
+  }
+  
+  .top-search-form .dropdown-menu{
+    top: 50%;
+    width: 100%;
+  }
+  
+  .kutedocs-single-content{
+    width: 100%;
+    word-wrap: break-word
+  }
+}
+/*# sourceMappingURL=style.css.map */

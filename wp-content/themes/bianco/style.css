@@ -1,0 +1,124 @@
+/*
+Theme Name:     Bianco
+Theme URI:      http://bianco.kutethemes.net/
+Author:         Kutethemes
+Text Domain:    bianco
+Author URI:     http://kutethemes.com/
+Description:    Bianco Shop is a simple but modern responsive WordPress theme that oozes high-street sophistication. Its sharp lines and flat design style has been designed to be pixel perfect. Simply load your photography and you can have an online shop to matches the likes of Prada, Gucci and Yves St Laurent.
+Version:        1.0.4
+License:        GNU General Public License v1 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Tags:           two-columns, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, translation-ready
+Market: Template Monster
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+@media (max-width: 767px) {
+    .auto-clear .col-xs-1:nth-child(12n+1),
+    .vc_col-xs-1:nth-child(12n+1) {
+        clear: left;
+    }
+    .auto-clear .col-xs-2:nth-child(6n+1),
+    .auto-clear .vc_col-xs-2:nth-child(6n+1) {
+        clear: left;
+    }
+    .auto-clear .col-xs-15:nth-child(5n+1),
+    .auto-clear .vc_col-xs-15:nth-child(5n+1) {
+        clear: left;
+    }
+    .auto-clear .col-xs-3:nth-child(4n+1),
+    .auto-clear .vc_col-xs-3:nth-child(4n+1) {
+        clear: left;
+    }
+    .auto-clear .col-xs-4:nth-child(3n+1),
+    .auto-clear .vc_col-xs-4:nth-child(3n+1) {
+        clear: left;
+    }
+    .auto-clear .col-xs-6:nth-child(odd),
+    .auto-clear .vc_col-xs-6:nth-child(odd) {
+        clear: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .auto-clear .col-sm-1:nth-child(12n+1),
+    .auto-clear .vc_col-sm-1:nth-child(12n+1) {
+        clear: left;
+    }
+    .auto-clear .col-sm-2:nth-child(6n+1),
+    .auto-clear .vc_col-sm-2:nth-child(6n+1) {
+        clear: left;
+    }
+    .auto-clear .col-sm-15:nth-child(5n+1),
+    .auto-clear .vc_col-sm-15:nth-child(5n+1) {
+        clear: left;
+    }
+    .auto-clear .col-sm-3:nth-child(4n+1),
+    .auto-clear .vc_col-sm-3:nth-child(4n+1) {
+        clear: left;
+    }
+    .auto-clear .col-sm-4:nth-child(3n+1),
+    .auto-clear .vc_col-sm-4:nth-child(3n+1) {
+        clear: left;
+    }
+    .auto-clear .col-sm-6:nth-child(odd),
+    .auto-clear .vc_col-sm-6:nth-child(odd) {
+        clear: left;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .auto-clear .col-md-1:nth-child(12n+1),
+    .auto-clear .vc_col-md-1:nth-child(12n+1) {
+        clear: left;
+    }
+    .auto-clear .col-md-2:nth-child(6n+1),
+    .auto-clear .vc_col-md-2:nth-child(6n+1) {
+        clear: left;
+    }
+    .auto-clear .col-md-15:nth-child(5n+1),
+    .auto-clear .vc_col-md-15:nth-child(5n+1) {
+        clear: left;
+    }
+    .auto-clear .col-md-3:nth-child(4n+1),
+    .auto-clear .vc_col-md-3:nth-child(4n+1) {
+        clear: left;
+    }
+    .auto-clear .col-md-4:nth-child(3n+1),
+    .auto-clear .vc_col-md-4:nth-child(3n+1) {
+        clear: left;
+    }
+    .auto-clear .col-md-6:nth-child(odd),
+    .auto-clear .vc_col-md-6:nth-child(odd) {
+        clear: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .auto-clear .col-lg-1:nth-child(12n+1),
+    .auto-clear .vc_col-lg-1:nth-child(12n+1) {
+        clear: left;
+    }
+    .auto-clear .col-lg-2:nth-child(6n+1),
+    .auto-clear .vc_col-lg-2:nth-child(6n+1) {
+        clear: left;
+    }
+    .auto-clear .col-lg-15:nth-child(5n+1),
+    .auto-clear .vc_col-lg-15:nth-child(5n+1) {
+        clear: left;
+    }
+    .auto-clear .col-lg-3:nth-child(4n+1),
+    .auto-clear .vc_col-lg-3:nth-child(4n+1) {
+        clear: left;
+    }
+    .auto-clear .col-lg-4:nth-child(3n+1),
+    .auto-clear .vc_col-lg-4:nth-child(3n+1) {
+        clear: left;
+    }
+    .auto-clear .col-lg-6:nth-child(odd),
+    .auto-clear .vc_col-lg-6:nth-child(odd) {
+        clear: left;
+    }
+}

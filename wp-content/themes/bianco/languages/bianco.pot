@@ -1,0 +1,2842 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30 09:36+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:5
+msgid "404"
+msgstr ""
+
+#: 404.php:6
+msgid "Opps! have no idea what just happened."
+msgstr ""
+
+#: 404.php:7
+msgid ""
+"The page you’re looking for can’t be found. You might find these links "
+"userful"
+msgstr ""
+
+#: 404.php:8
+msgid "Back to Homepage"
+msgstr ""
+
+#: comments.php:20 comments.php:37
+msgid "Comment"
+msgstr ""
+
+#: comments.php:23
+msgid "Name*"
+msgstr ""
+
+#: comments.php:24
+msgid "Email*"
+msgstr ""
+
+#: comments.php:30
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:31
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:43
+msgid "Comments"
+msgstr ""
+
+#: comments.php:62
+msgid "Prev"
+msgstr ""
+
+#: comments.php:63
+msgid "Next"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:1
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:4
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: content-none.php:4
+msgid "Get started here"
+msgstr ""
+
+#: content-none.php:6
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:9
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: functions.php:102
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:103
+msgid "Vertical Menu"
+msgstr ""
+
+#: functions.php:110
+msgid "Widget Area"
+msgstr ""
+
+#: functions.php:112 functions.php:122
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:120
+msgid "Shop Widget Area"
+msgstr ""
+
+#: page.php:57 framework/blog-functions.php:377
+msgid "Pages:"
+msgstr ""
+
+#: page.php:61
+msgid "Page"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "placeholder"
+msgid "Search here..."
+msgstr ""
+
+#: sidebar-store.php:9 sidebar.php:8 framework/theme-functions.php:87
+#: framework/woo-functions.php:983
+msgid "Sidebar"
+msgstr ""
+
+#: framework/blog-functions.php:64
+msgid "Share"
+msgstr ""
+
+#: framework/blog-functions.php:68 framework/woo-functions.php:386
+#: framework/woo-functions.php:1021
+msgid "Twitter"
+msgstr ""
+
+#: framework/blog-functions.php:73 framework/woo-functions.php:381
+#: framework/woo-functions.php:1013
+msgid "Facebook"
+msgstr ""
+
+#: framework/blog-functions.php:78
+msgid "Google+"
+msgstr ""
+
+#: framework/blog-functions.php:83
+msgid "Pinterest"
+msgstr ""
+
+#: framework/blog-functions.php:171 framework/blog-functions.php:394
+msgid " Sticky"
+msgstr ""
+
+#: framework/blog-functions.php:238
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/blog-functions.php:246
+msgid "at "
+msgstr ""
+
+#: framework/blog-functions.php:251
+msgid "Edit"
+msgstr ""
+
+#: framework/blog-functions.php:328
+msgid "Previous Page"
+msgstr ""
+
+#: framework/blog-functions.php:329
+msgid "Next Page"
+msgstr ""
+
+#: framework/blog-functions.php:372
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: framework/blog-functions.php:414 framework/blog-functions.php:415
+msgid ", "
+msgstr ""
+
+#: framework/blog-functions.php:418
+msgid "Tags:"
+msgstr ""
+
+#: framework/blog-functions.php:421 framework/woo-functions.php:370
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/blog-functions.php:498
+msgid "Continue Reading"
+msgstr ""
+
+#: framework/blog-functions.php:511
+msgid "0"
+msgstr ""
+
+#: framework/blog-functions.php:512
+msgid "1"
+msgstr ""
+
+#: framework/blog-functions.php:513
+msgid "%"
+msgstr ""
+
+#: framework/blog-functions.php:535
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: framework/theme-functions.php:32 framework/theme-functions.php:101
+msgid "Global"
+msgstr ""
+
+#: framework/theme-functions.php:37
+msgid "Language"
+msgstr ""
+
+#: framework/theme-functions.php:47
+msgid "Currency"
+msgstr ""
+
+#: framework/theme-functions.php:52 framework/theme-functions.php:55
+msgid "My Account"
+msgstr ""
+
+#: framework/theme-functions.php:60 framework/theme-functions.php:145
+msgid "Logout"
+msgstr ""
+
+#: framework/theme-functions.php:63 woocommerce/myaccount/form-login.php:68
+#: woocommerce/myaccount/form-login.php:69
+msgid "Login"
+msgstr ""
+
+#: framework/theme-functions.php:68
+msgid "Track Your Order"
+msgstr ""
+
+#: framework/theme-functions.php:81 framework/visual-composer.php:2507
+msgid "Menu"
+msgstr ""
+
+#: framework/theme-functions.php:94
+msgid "Cart"
+msgstr ""
+
+#: framework/theme-functions.php:122
+msgid "Sign in"
+msgstr ""
+
+#: framework/theme-functions.php:124
+msgid "Register/"
+msgstr ""
+
+#: framework/theme-functions.php:139
+#, php-format
+msgid "Hi, %s"
+msgstr ""
+
+#: framework/theme-functions.php:143
+msgid "My account"
+msgstr ""
+
+#: framework/theme-functions.php:319 vc_templates/ovic_custommenu.php:53
+msgid "All Categories"
+msgstr ""
+
+#: framework/theme-functions.php:344 framework/theme-functions.php:352
+#: framework/theme-functions.php:366
+msgid "Search here..."
+msgstr ""
+
+#: framework/theme-functions.php:372 framework/theme-functions.php:643
+#: framework/theme-functions.php:654
+msgid "Search"
+msgstr ""
+
+#: framework/theme-functions.php:386
+msgid "All department"
+msgstr ""
+
+#: framework/theme-functions.php:634
+msgid "Detail Product"
+msgstr ""
+
+#: framework/theme-functions.php:636 framework/theme-functions.php:648
+msgid "bianco blog"
+msgstr ""
+
+#: framework/theme-functions.php:641
+msgid "Shop"
+msgstr ""
+
+#: framework/theme-functions.php:645
+msgid "Portfolio"
+msgstr ""
+
+#: framework/theme-functions.php:661
+msgid "Latest Post"
+msgstr ""
+
+#: framework/visual-composer.php:10
+msgid "Ovic Button"
+msgstr ""
+
+#: framework/visual-composer.php:55 framework/visual-composer.php:61
+#: framework/visual-composer.php:66 framework/visual-composer.php:76
+msgid "Extra Icon"
+msgstr ""
+
+#: framework/visual-composer.php:57 framework/visual-composer.php:65
+#: framework/visual-composer.php:554 framework/visual-composer.php:561
+#: framework/visual-composer.php:756 framework/visual-composer.php:762
+#: framework/visual-composer.php:821 framework/visual-composer.php:827
+#: framework/visual-composer.php:2478 framework/visual-composer.php:2515
+#: framework/visual-composer.php:2616
+msgid "Image"
+msgstr ""
+
+#: framework/visual-composer.php:58 framework/visual-composer.php:1586
+msgid "Ovic Fonts"
+msgstr ""
+
+#: framework/visual-composer.php:75 framework/visual-composer.php:568
+#: framework/visual-composer.php:582 framework/visual-composer.php:597
+#: framework/visual-composer.php:613 framework/visual-composer.php:629
+#: framework/visual-composer.php:644 framework/visual-composer.php:660
+#: framework/visual-composer.php:676 framework/visual-composer.php:768
+#: framework/visual-composer.php:833 framework/visual-composer.php:1592
+#: framework/visual-composer.php:1606 framework/visual-composer.php:1621
+#: framework/visual-composer.php:1637 framework/visual-composer.php:1653
+#: framework/visual-composer.php:1668 framework/visual-composer.php:1684
+#: framework/visual-composer.php:1700
+msgid "Icon"
+msgstr ""
+
+#: framework/visual-composer.php:237
+msgid "All"
+msgstr ""
+
+#: framework/visual-composer.php:268
+msgid "Effect"
+msgstr ""
+
+#: framework/visual-composer.php:269 framework/visual-composer.php:289
+msgid "Image Effect"
+msgstr ""
+
+#: framework/visual-composer.php:272 framework/visual-composer.php:1890
+#: framework/visual-composer.php:1909 framework/visual-composer.php:1924
+msgid "None"
+msgstr ""
+
+#: framework/visual-composer.php:273
+msgid "Normal Effect"
+msgstr ""
+
+#: framework/visual-composer.php:274
+msgid "Normal Effect Dark Color"
+msgstr ""
+
+#: framework/visual-composer.php:275
+msgid "Normal Effect Light Color"
+msgstr ""
+
+#: framework/visual-composer.php:276
+msgid "Bounce In"
+msgstr ""
+
+#: framework/visual-composer.php:277
+msgid "Plus Zoom"
+msgstr ""
+
+#: framework/visual-composer.php:278
+msgid "Border Zoom"
+msgstr ""
+
+#: framework/visual-composer.php:279
+msgid "Border ScaleUp"
+msgstr ""
+
+#: framework/visual-composer.php:280
+msgid "Box Shadow Hover"
+msgstr ""
+
+#: framework/visual-composer.php:287
+msgid "Effect Color:"
+msgstr ""
+
+#: framework/visual-composer.php:297 framework/visual-composer.php:505
+#: framework/visual-composer.php:963 framework/visual-composer.php:1381
+#: framework/visual-composer.php:1409 framework/visual-composer.php:1467
+#: framework/visual-composer.php:1736 framework/visual-composer.php:1891
+#: framework/visual-composer.php:2096 framework/visual-composer.php:2130
+#: framework/visual-composer.php:2153 framework/visual-composer.php:2340
+#: framework/visual-composer.php:2363 framework/visual-composer.php:2445
+#: framework/visual-composer.php:2541 framework/visual-composer.php:2729
+msgid "Default"
+msgstr ""
+
+#: framework/visual-composer.php:301
+msgid "Deal"
+msgstr ""
+
+#: framework/visual-composer.php:305
+msgid "Deal 2"
+msgstr ""
+
+#: framework/visual-composer.php:309 framework/visual-composer.php:883
+#: framework/visual-composer.php:1830
+msgid "Style 01"
+msgstr ""
+
+#: framework/visual-composer.php:313 framework/visual-composer.php:1834
+#: framework/visual-composer.php:2733
+msgid "Style 02"
+msgstr ""
+
+#: framework/visual-composer.php:317 framework/visual-composer.php:1838
+msgid "Style 03"
+msgstr ""
+
+#: framework/visual-composer.php:321 framework/visual-composer.php:1842
+msgid "Style 04"
+msgstr ""
+
+#: framework/visual-composer.php:325
+msgid "Style 05"
+msgstr ""
+
+#: framework/visual-composer.php:329
+msgid "Style 06"
+msgstr ""
+
+#: framework/visual-composer.php:333
+msgid "Style 07"
+msgstr ""
+
+#: framework/visual-composer.php:337
+msgid "Style 08"
+msgstr ""
+
+#: framework/visual-composer.php:341
+msgid "Style 09"
+msgstr ""
+
+#: framework/visual-composer.php:345
+msgid "Style 10"
+msgstr ""
+
+#: framework/visual-composer.php:349
+msgid "Style 11"
+msgstr ""
+
+#: framework/visual-composer.php:353
+msgid "Style 12"
+msgstr ""
+
+#: framework/visual-composer.php:357
+msgid "Style 13"
+msgstr ""
+
+#: framework/visual-composer.php:361
+msgid "Style 14"
+msgstr ""
+
+#: framework/visual-composer.php:365
+msgid "Style 15"
+msgstr ""
+
+#: framework/visual-composer.php:369
+msgid "Style 16"
+msgstr ""
+
+#: framework/visual-composer.php:373
+msgid "Style 17"
+msgstr ""
+
+#: framework/visual-composer.php:377
+msgid "Style 18"
+msgstr ""
+
+#: framework/visual-composer.php:381
+msgid "Style 19"
+msgstr ""
+
+#: framework/visual-composer.php:385
+msgid "Style 20"
+msgstr ""
+
+#: framework/visual-composer.php:389
+msgid "Style 21"
+msgstr ""
+
+#: framework/visual-composer.php:393
+msgid "Style 22"
+msgstr ""
+
+#: framework/visual-composer.php:397
+msgid "Style 23"
+msgstr ""
+
+#: framework/visual-composer.php:401
+msgid "Style 24"
+msgstr ""
+
+#: framework/visual-composer.php:405
+msgid "Style 25"
+msgstr ""
+
+#: framework/visual-composer.php:409
+msgid "Style 26"
+msgstr ""
+
+#: framework/visual-composer.php:413
+msgid "Style 27"
+msgstr ""
+
+#: framework/visual-composer.php:417
+msgid "Style 28"
+msgstr ""
+
+#: framework/visual-composer.php:421
+msgid "Style 29"
+msgstr ""
+
+#: framework/visual-composer.php:425
+msgid "Style 30"
+msgstr ""
+
+#: framework/visual-composer.php:429
+msgid "Style 31"
+msgstr ""
+
+#: framework/visual-composer.php:433
+msgid "Style 32"
+msgstr ""
+
+#: framework/visual-composer.php:437
+msgid "Style 33"
+msgstr ""
+
+#: framework/visual-composer.php:441
+msgid "Style 34"
+msgstr ""
+
+#: framework/visual-composer.php:445
+msgid "Style 35"
+msgstr ""
+
+#: framework/visual-composer.php:449
+msgid "Style 36"
+msgstr ""
+
+#: framework/visual-composer.php:453
+msgid "Style 37"
+msgstr ""
+
+#: framework/visual-composer.php:457
+msgid "Style 38"
+msgstr ""
+
+#: framework/visual-composer.php:461
+msgid "Style 39"
+msgstr ""
+
+#: framework/visual-composer.php:492
+msgid "Ovic: Icon Box"
+msgstr ""
+
+#: framework/visual-composer.php:494 framework/visual-composer.php:875
+#: framework/visual-composer.php:925 framework/visual-composer.php:1454
+#: framework/visual-composer.php:1564 framework/visual-composer.php:1728
+#: framework/visual-composer.php:1812 framework/visual-composer.php:2082
+#: framework/visual-composer.php:2184 framework/visual-composer.php:2387
+#: framework/visual-composer.php:2436 framework/visual-composer.php:2527
+#: framework/visual-composer.php:2564 framework/visual-composer.php:2637
+#: framework/visual-composer.php:2720
+msgid "Ovic Shortcode"
+msgstr ""
+
+#: framework/visual-composer.php:495
+msgid "Display Icon Box"
+msgstr ""
+
+#: framework/visual-composer.php:501 framework/visual-composer.php:1464
+#: framework/visual-composer.php:1733 framework/visual-composer.php:2093
+#: framework/visual-composer.php:2538
+msgid "Select style"
+msgstr ""
+
+#: framework/visual-composer.php:509 framework/visual-composer.php:971
+#: framework/visual-composer.php:2403
+msgid "Layout 02"
+msgstr ""
+
+#: framework/visual-composer.php:513 framework/visual-composer.php:975
+msgid "Layout 03"
+msgstr ""
+
+#: framework/visual-composer.php:517 framework/visual-composer.php:979
+msgid "Layout 04"
+msgstr ""
+
+#: framework/visual-composer.php:521 framework/visual-composer.php:983
+msgid "Layout 05"
+msgstr ""
+
+#: framework/visual-composer.php:525
+msgid "Layout 06"
+msgstr ""
+
+#: framework/visual-composer.php:529
+msgid "Group Type 01"
+msgstr ""
+
+#: framework/visual-composer.php:533
+msgid "Group Type 02"
+msgstr ""
+
+#: framework/visual-composer.php:543 framework/visual-composer.php:752
+#: framework/visual-composer.php:818 framework/visual-composer.php:1577
+msgid "Icon library"
+msgstr ""
+
+#: framework/visual-composer.php:546 framework/visual-composer.php:755
+#: framework/visual-composer.php:820 framework/visual-composer.php:1579
+msgid "Font Awesome"
+msgstr ""
+
+#: framework/visual-composer.php:547 framework/visual-composer.php:1580
+msgid "Open Iconic"
+msgstr ""
+
+#: framework/visual-composer.php:548 framework/visual-composer.php:1581
+msgid "Typicons"
+msgstr ""
+
+#: framework/visual-composer.php:549 framework/visual-composer.php:1582
+msgid "Entypo"
+msgstr ""
+
+#: framework/visual-composer.php:550 framework/visual-composer.php:1583
+msgid "Linecons"
+msgstr ""
+
+#: framework/visual-composer.php:551 framework/visual-composer.php:1584
+msgid "Mono Social"
+msgstr ""
+
+#: framework/visual-composer.php:552 framework/visual-composer.php:1585
+msgid "Material"
+msgstr ""
+
+#: framework/visual-composer.php:553
+msgid "Custom Fonts"
+msgstr ""
+
+#: framework/visual-composer.php:556 framework/visual-composer.php:758
+#: framework/visual-composer.php:823 framework/visual-composer.php:1588
+msgid "Select icon library."
+msgstr ""
+
+#: framework/visual-composer.php:569 framework/visual-composer.php:593
+#: framework/visual-composer.php:609 framework/visual-composer.php:625
+#: framework/visual-composer.php:656 framework/visual-composer.php:672
+#: framework/visual-composer.php:688 framework/visual-composer.php:779
+#: framework/visual-composer.php:844 framework/visual-composer.php:1593
+#: framework/visual-composer.php:1617 framework/visual-composer.php:1633
+#: framework/visual-composer.php:1649 framework/visual-composer.php:1680
+#: framework/visual-composer.php:1696 framework/visual-composer.php:1712
+msgid "Select icon from library."
+msgstr ""
+
+#: framework/visual-composer.php:693 framework/visual-composer.php:797
+#: framework/visual-composer.php:862 framework/visual-composer.php:1717
+msgid "Background color"
+msgstr ""
+
+#: framework/visual-composer.php:699 framework/visual-composer.php:783
+#: framework/visual-composer.php:848 framework/visual-composer.php:1007
+#: framework/visual-composer.php:1292 framework/visual-composer.php:1569
+#: framework/visual-composer.php:1754 framework/visual-composer.php:2118
+#: framework/visual-composer.php:2189 framework/visual-composer.php:2309
+#: framework/visual-composer.php:2413 framework/visual-composer.php:2489
+#: framework/visual-composer.php:2642 framework/visual-composer.php:2753
+msgid "Title"
+msgstr ""
+
+#: framework/visual-composer.php:707 framework/visual-composer.php:790
+#: framework/visual-composer.php:855 framework/visual-composer.php:1759
+msgid "Subtitle"
+msgstr ""
+
+#: framework/visual-composer.php:714
+msgid "Second Title"
+msgstr ""
+
+#: framework/visual-composer.php:720
+msgid "Second Subtitle"
+msgstr ""
+
+#: framework/visual-composer.php:726 framework/visual-composer.php:914
+msgid "Link"
+msgstr ""
+
+#: framework/visual-composer.php:728
+msgid "The Link to Icon"
+msgstr ""
+
+#: framework/visual-composer.php:734
+msgid "Gutter Group"
+msgstr ""
+
+#: framework/visual-composer.php:737
+msgid "No Gutter"
+msgstr ""
+
+#: framework/visual-composer.php:738
+msgid "Gutter"
+msgstr ""
+
+#: framework/visual-composer.php:744 framework/visual-composer.php:810
+msgid "Group icons"
+msgstr ""
+
+#: framework/visual-composer.php:803
+msgid "Border color"
+msgstr ""
+
+#: framework/visual-composer.php:873
+msgid "Ovic: Person"
+msgstr ""
+
+#: framework/visual-composer.php:876
+msgid "Display Person"
+msgstr ""
+
+#: framework/visual-composer.php:880 framework/visual-composer.php:946
+msgid "Select layout"
+msgstr ""
+
+#: framework/visual-composer.php:893
+msgid "Avatar Person"
+msgstr ""
+
+#: framework/visual-composer.php:898
+msgid "Name:"
+msgstr ""
+
+#: framework/visual-composer.php:904
+msgid "Title:"
+msgstr ""
+
+#: framework/visual-composer.php:909
+msgid "Message:"
+msgstr ""
+
+#: framework/visual-composer.php:923
+msgid "Ovic: Products"
+msgstr ""
+
+#: framework/visual-composer.php:926
+msgid "Display Products"
+msgstr ""
+
+#: framework/visual-composer.php:931
+msgid "Product List Style"
+msgstr ""
+
+#: framework/visual-composer.php:932
+msgid "Select a style for list"
+msgstr ""
+
+#: framework/visual-composer.php:934
+msgid "Grid Bootstrap"
+msgstr ""
+
+#: framework/visual-composer.php:935 framework/visual-composer.php:1438
+#: framework/visual-composer.php:2172 framework/visual-composer.php:2375
+msgid "Carousel"
+msgstr ""
+
+#: framework/visual-composer.php:936
+msgid "Combined Countdown"
+msgstr ""
+
+#: framework/visual-composer.php:937
+msgid "Widget"
+msgstr ""
+
+#: framework/visual-composer.php:938
+msgid "Products Right Overflow"
+msgstr ""
+
+#: framework/visual-composer.php:949 framework/visual-composer.php:2395
+msgid "Default Layout"
+msgstr ""
+
+#: framework/visual-composer.php:959
+msgid "Select Layout"
+msgstr ""
+
+#: framework/visual-composer.php:967 framework/visual-composer.php:2399
+#: framework/visual-composer.php:2449
+msgid "Layout 01"
+msgstr ""
+
+#: framework/visual-composer.php:992
+msgid "Distance"
+msgstr ""
+
+#: framework/visual-composer.php:993
+msgid "The distances between two items in a row"
+msgstr ""
+
+#: framework/visual-composer.php:996
+msgid "Default (30px)"
+msgstr ""
+
+#: framework/visual-composer.php:997
+msgid "Medium (10px)"
+msgstr ""
+
+#: framework/visual-composer.php:1018
+msgid "Background Of Title"
+msgstr ""
+
+#: framework/visual-composer.php:1024 framework/visual-composer.php:1033
+msgid "Sub Title"
+msgstr ""
+
+#: framework/visual-composer.php:1042
+msgid "Title's Underline Color"
+msgstr ""
+
+#: framework/visual-composer.php:1054
+msgid "Button"
+msgstr ""
+
+#: framework/visual-composer.php:1057
+msgid "This button is used to redirect users"
+msgstr ""
+
+#: framework/visual-composer.php:1065
+msgid "Number columns"
+msgstr ""
+
+#: framework/visual-composer.php:1075
+msgid "Product style"
+msgstr ""
+
+#: framework/visual-composer.php:1077
+msgid "Select a style for product item"
+msgstr ""
+
+#: framework/visual-composer.php:1145 framework/visual-composer.php:1854
+msgid "Main Background"
+msgstr ""
+
+#: framework/visual-composer.php:1155 framework/visual-composer.php:1168
+#: framework/visual-composer.php:1181 framework/visual-composer.php:1194
+#: framework/visual-composer.php:1240 framework/visual-composer.php:1524
+#: framework/visual-composer.php:1767
+msgid "Yes"
+msgstr ""
+
+#: framework/visual-composer.php:1156 framework/visual-composer.php:1169
+#: framework/visual-composer.php:1182 framework/visual-composer.php:1195
+#: framework/visual-composer.php:1525 framework/visual-composer.php:1768
+msgid "No"
+msgstr ""
+
+#: framework/visual-composer.php:1159
+msgid "Show only icon"
+msgstr ""
+
+#: framework/visual-composer.php:1172
+msgid "Hide label"
+msgstr ""
+
+#: framework/visual-composer.php:1185
+msgid "Hide review"
+msgstr ""
+
+#: framework/visual-composer.php:1198
+msgid "Hide quickview"
+msgstr ""
+
+#: framework/visual-composer.php:1206
+msgid "Image size"
+msgstr ""
+
+#: framework/visual-composer.php:1209
+msgid "Select a size for product"
+msgstr ""
+
+#: framework/visual-composer.php:1217
+msgid "Width"
+msgstr ""
+
+#: framework/visual-composer.php:1219 framework/visual-composer.php:1229
+msgid "px"
+msgstr ""
+
+#: framework/visual-composer.php:1227
+msgid "Height"
+msgstr ""
+
+#: framework/visual-composer.php:1238
+msgid "Enable Loadmore"
+msgstr ""
+
+#: framework/visual-composer.php:1241 framework/visual-composer.php:1258
+#: framework/visual-composer.php:1282 framework/visual-composer.php:1307
+#: framework/visual-composer.php:1325 framework/visual-composer.php:1338
+#: framework/visual-composer.php:1355
+msgid "Products options"
+msgstr ""
+
+#: framework/visual-composer.php:1249 framework/visual-composer.php:1274
+msgid "Product Category"
+msgstr ""
+
+#: framework/visual-composer.php:1256
+msgid "Choose category"
+msgstr ""
+
+#: framework/visual-composer.php:1257
+msgid ""
+"Note: If you want to narrow output, select category(s) above. Only selected "
+"categories will be displayed."
+msgstr ""
+
+#: framework/visual-composer.php:1268 framework/visual-composer.php:2248
+msgid "Target"
+msgstr ""
+
+#: framework/visual-composer.php:1271
+msgid "Best Selling Products"
+msgstr ""
+
+#: framework/visual-composer.php:1272
+msgid "Top Rated Products"
+msgstr ""
+
+#: framework/visual-composer.php:1273
+msgid "Recent Products"
+msgstr ""
+
+#: framework/visual-composer.php:1275 framework/visual-composer.php:1342
+#: framework/visual-composer.php:2033
+msgid "Products"
+msgstr ""
+
+#: framework/visual-composer.php:1276
+msgid "Featured Products"
+msgstr ""
+
+#: framework/visual-composer.php:1277
+msgid "On Sale"
+msgstr ""
+
+#: framework/visual-composer.php:1278
+msgid "On New"
+msgstr ""
+
+#: framework/visual-composer.php:1280
+msgid "Choose the target to filter products"
+msgstr ""
+
+#: framework/visual-composer.php:1286 framework/visual-composer.php:2302
+msgid "Order by"
+msgstr ""
+
+#: framework/visual-composer.php:1289 framework/visual-composer.php:2306
+msgid "Date"
+msgstr ""
+
+#: framework/visual-composer.php:1290 framework/visual-composer.php:2307
+msgid "ID"
+msgstr ""
+
+#: framework/visual-composer.php:1291 framework/visual-composer.php:2308
+msgid "Author"
+msgstr ""
+
+#: framework/visual-composer.php:1293 framework/visual-composer.php:2310
+msgid "Modified"
+msgstr ""
+
+#: framework/visual-composer.php:1294 framework/visual-composer.php:2311
+msgid "Random"
+msgstr ""
+
+#: framework/visual-composer.php:1295 framework/visual-composer.php:2312
+msgid "Comment count"
+msgstr ""
+
+#: framework/visual-composer.php:1296 framework/visual-composer.php:2313
+msgid "Menu order"
+msgstr ""
+
+#: framework/visual-composer.php:1297
+msgid "Sale price"
+msgstr ""
+
+#: framework/visual-composer.php:1300
+msgid "Select how to sort."
+msgstr ""
+
+#: framework/visual-composer.php:1311
+msgid "Order"
+msgstr ""
+
+#: framework/visual-composer.php:1314
+msgid "ASC"
+msgstr ""
+
+#: framework/visual-composer.php:1315
+msgid "DESC"
+msgstr ""
+
+#: framework/visual-composer.php:1318
+msgid "Designates the ascending or descending order."
+msgstr ""
+
+#: framework/visual-composer.php:1329
+msgid "Product per page"
+msgstr ""
+
+#: framework/visual-composer.php:1350
+msgid "Enter List of Products"
+msgstr ""
+
+#: framework/visual-composer.php:1359
+msgid "Extent URL"
+msgstr ""
+
+#: framework/visual-composer.php:1368
+msgid "Bootstrap"
+msgstr ""
+
+#: framework/visual-composer.php:1370
+msgid "Bootstrap Settings"
+msgstr ""
+
+#: framework/visual-composer.php:1378 framework/visual-composer.php:2127
+#: framework/visual-composer.php:2337
+msgid "Rows space"
+msgstr ""
+
+#: framework/visual-composer.php:1382 framework/visual-composer.php:2131
+#: framework/visual-composer.php:2341
+msgid "5px"
+msgstr ""
+
+#: framework/visual-composer.php:1383 framework/visual-composer.php:2132
+#: framework/visual-composer.php:2342
+msgid "10px"
+msgstr ""
+
+#: framework/visual-composer.php:1384 framework/visual-composer.php:2133
+#: framework/visual-composer.php:2343
+msgid "15px"
+msgstr ""
+
+#: framework/visual-composer.php:1385 framework/visual-composer.php:2134
+#: framework/visual-composer.php:2344
+msgid "20px"
+msgstr ""
+
+#: framework/visual-composer.php:1386 framework/visual-composer.php:2135
+#: framework/visual-composer.php:2345
+msgid "30px"
+msgstr ""
+
+#: framework/visual-composer.php:1387 framework/visual-composer.php:2136
+#: framework/visual-composer.php:2346
+msgid "40px"
+msgstr ""
+
+#: framework/visual-composer.php:1388 framework/visual-composer.php:2137
+#: framework/visual-composer.php:2347
+msgid "50px"
+msgstr ""
+
+#: framework/visual-composer.php:1389 framework/visual-composer.php:2138
+#: framework/visual-composer.php:2348
+msgid "60px"
+msgstr ""
+
+#: framework/visual-composer.php:1390 framework/visual-composer.php:2139
+#: framework/visual-composer.php:2349
+msgid "70px"
+msgstr ""
+
+#: framework/visual-composer.php:1391 framework/visual-composer.php:2140
+#: framework/visual-composer.php:2350
+msgid "80px"
+msgstr ""
+
+#: framework/visual-composer.php:1392 framework/visual-composer.php:2141
+#: framework/visual-composer.php:2351
+msgid "90px"
+msgstr ""
+
+#: framework/visual-composer.php:1393 framework/visual-composer.php:2142
+#: framework/visual-composer.php:2352
+msgid "100px"
+msgstr ""
+
+#: framework/visual-composer.php:1401 framework/visual-composer.php:1407
+#: framework/visual-composer.php:1424 framework/visual-composer.php:1432
+#: framework/visual-composer.php:1440 framework/visual-composer.php:2146
+#: framework/visual-composer.php:2161 framework/visual-composer.php:2174
+#: framework/visual-composer.php:2356 framework/visual-composer.php:2371
+#: framework/visual-composer.php:2377
+msgid "Carousel Settings"
+msgstr ""
+
+#: framework/visual-composer.php:1405 framework/visual-composer.php:2150
+#: framework/visual-composer.php:2360
+msgid "Navigation style"
+msgstr ""
+
+#: framework/visual-composer.php:1410 framework/visual-composer.php:2154
+#: framework/visual-composer.php:2211 framework/visual-composer.php:2364
+msgid "Style 1"
+msgstr ""
+
+#: framework/visual-composer.php:1411 framework/visual-composer.php:2155
+#: framework/visual-composer.php:2215 framework/visual-composer.php:2365
+msgid "Style 2"
+msgstr ""
+
+#: framework/visual-composer.php:1412 framework/visual-composer.php:2156
+#: framework/visual-composer.php:2366
+msgid "Style Top Right"
+msgstr ""
+
+#: framework/visual-composer.php:1413 framework/visual-composer.php:2157
+#: framework/visual-composer.php:2367
+msgid "Style Bottom Right"
+msgstr ""
+
+#: framework/visual-composer.php:1414
+msgid "Style Bottom Label"
+msgstr ""
+
+#: framework/visual-composer.php:1422
+msgid "Next Label"
+msgstr ""
+
+#: framework/visual-composer.php:1430
+msgid "Previous Label"
+msgstr ""
+
+#: framework/visual-composer.php:1452
+msgid "Ovic: Tabs"
+msgstr ""
+
+#: framework/visual-composer.php:1455
+msgid "Display Tabs"
+msgstr ""
+
+#: framework/visual-composer.php:1471
+msgid "Tab On Left"
+msgstr ""
+
+#: framework/visual-composer.php:1475
+msgid "Tab On Right"
+msgstr ""
+
+#: framework/visual-composer.php:1479
+msgid "Tab On Right 2"
+msgstr ""
+
+#: framework/visual-composer.php:1483
+msgid "Tab On Top"
+msgstr ""
+
+#: framework/visual-composer.php:1494
+msgid "Border Active Color"
+msgstr ""
+
+#: framework/visual-composer.php:1500
+msgid "Tab Title"
+msgstr ""
+
+#: framework/visual-composer.php:1508
+msgid "Background Of Active Tab"
+msgstr ""
+
+#: framework/visual-composer.php:1514
+msgid "Link View More"
+msgstr ""
+
+#: framework/visual-composer.php:1521
+msgid "Using Ajax Tabs"
+msgstr ""
+
+#: framework/visual-composer.php:1531
+msgid "Active Section"
+msgstr ""
+
+#: framework/visual-composer.php:1551 framework/visual-composer.php:1552
+msgid "Tab"
+msgstr ""
+
+#: framework/visual-composer.php:1562
+msgid "Ovic: Tab Title"
+msgstr ""
+
+#: framework/visual-composer.php:1565
+msgid "Create a title ahead of Tab"
+msgstr ""
+
+#: framework/visual-composer.php:1571
+msgid "The title"
+msgstr ""
+
+#: framework/visual-composer.php:1726
+msgid "Ovic: Newsletter"
+msgstr ""
+
+#: framework/visual-composer.php:1729
+msgid "Display Newsletter"
+msgstr ""
+
+#: framework/visual-composer.php:1740 framework/visual-composer.php:2457
+msgid "Inline"
+msgstr ""
+
+#: framework/visual-composer.php:1744
+msgid "Squares"
+msgstr ""
+
+#: framework/visual-composer.php:1764
+msgid "Show Field Name"
+msgstr ""
+
+#: framework/visual-composer.php:1774
+msgid "First Name Text"
+msgstr ""
+
+#: framework/visual-composer.php:1776
+msgid "First Name"
+msgstr ""
+
+#: framework/visual-composer.php:1784
+msgid "Last Name Text"
+msgstr ""
+
+#: framework/visual-composer.php:1786
+msgid "Last Name"
+msgstr ""
+
+#: framework/visual-composer.php:1794
+msgid "Placeholder Text"
+msgstr ""
+
+#: framework/visual-composer.php:1796
+msgid "Your email letter"
+msgstr ""
+
+#: framework/visual-composer.php:1800
+msgid "Button Text"
+msgstr ""
+
+#: framework/visual-composer.php:1802
+msgid "Subscribe"
+msgstr ""
+
+#: framework/visual-composer.php:1810
+msgid "Ovic: Banner"
+msgstr ""
+
+#: framework/visual-composer.php:1813
+msgid "Your can build banner here"
+msgstr ""
+
+#: framework/visual-composer.php:1816
+msgid "Layout"
+msgstr ""
+
+#: framework/visual-composer.php:1824
+msgid "Banner Style"
+msgstr ""
+
+#: framework/visual-composer.php:1864
+msgid "Object Image"
+msgstr ""
+
+#: framework/visual-composer.php:1874
+msgid "Background Color"
+msgstr ""
+
+#: framework/visual-composer.php:1875
+msgid "This is the main background color of the banner"
+msgstr ""
+
+#: framework/visual-composer.php:1885 framework/visual-composer.php:1904
+#: framework/visual-composer.php:1919
+msgid "Effect Banner"
+msgstr ""
+
+#: framework/visual-composer.php:1886 framework/visual-composer.php:1905
+#: framework/visual-composer.php:1920
+msgid "Select an effect for this banner"
+msgstr ""
+
+#: framework/visual-composer.php:1892
+msgid "Zoom In"
+msgstr ""
+
+#: framework/visual-composer.php:1893
+msgid "Left Overlay"
+msgstr ""
+
+#: framework/visual-composer.php:1894
+msgid "Dark Background"
+msgstr ""
+
+#: framework/visual-composer.php:1895
+msgid "Box Shadow"
+msgstr ""
+
+#: framework/visual-composer.php:1910
+msgid "Zoom in"
+msgstr ""
+
+#: framework/visual-composer.php:1925
+msgid "Translate to left"
+msgstr ""
+
+#: framework/visual-composer.php:1926
+msgid "Translate to right"
+msgstr ""
+
+#: framework/visual-composer.php:1927
+msgid "Overlay Popup"
+msgstr ""
+
+#: framework/visual-composer.php:1928
+msgid "Border box "
+msgstr ""
+
+#: framework/visual-composer.php:1937
+msgid "image title"
+msgstr ""
+
+#: framework/visual-composer.php:1946
+msgid "Product Image"
+msgstr ""
+
+#: framework/visual-composer.php:1948
+msgid "Pictures represent the product"
+msgstr ""
+
+#: framework/visual-composer.php:1954
+msgid "Text 1"
+msgstr ""
+
+#: framework/visual-composer.php:1955 framework/visual-composer.php:1965
+#: framework/visual-composer.php:1975 framework/visual-composer.php:1985
+#: framework/visual-composer.php:1995 framework/visual-composer.php:2005
+msgid "Enter the text on banner"
+msgstr ""
+
+#: framework/visual-composer.php:1964
+msgid "Text 2"
+msgstr ""
+
+#: framework/visual-composer.php:1974
+msgid "Text 3"
+msgstr ""
+
+#: framework/visual-composer.php:1984
+msgid "Text 4"
+msgstr ""
+
+#: framework/visual-composer.php:1994
+msgid "Text 5"
+msgstr ""
+
+#: framework/visual-composer.php:2004
+msgid "Text 6"
+msgstr ""
+
+#: framework/visual-composer.php:2014
+msgid "Button label"
+msgstr ""
+
+#: framework/visual-composer.php:2023
+msgid "Expiration Date"
+msgstr ""
+
+#: framework/visual-composer.php:2041
+msgid "Enter the Products"
+msgstr ""
+
+#: framework/visual-composer.php:2046
+msgid "Extent Link"
+msgstr ""
+
+#: framework/visual-composer.php:2055 framework/visual-composer.php:2066
+msgid "Button color"
+msgstr ""
+
+#: framework/visual-composer.php:2056
+msgid "This is the background color of the button"
+msgstr ""
+
+#: framework/visual-composer.php:2080
+msgid "Ovic: Slide"
+msgstr ""
+
+#: framework/visual-composer.php:2083
+msgid "Display Slide"
+msgstr ""
+
+#: framework/visual-composer.php:2100
+msgid "Brand Layout"
+msgstr ""
+
+#: framework/visual-composer.php:2104
+msgid "Brand Vertical"
+msgstr ""
+
+#: framework/visual-composer.php:2108
+msgid "Testimonials"
+msgstr ""
+
+#: framework/visual-composer.php:2166
+msgid "Dot Color"
+msgstr ""
+
+#: framework/visual-composer.php:2182
+msgid "Ovic: Blog"
+msgstr ""
+
+#: framework/visual-composer.php:2185
+msgid "Display Blog"
+msgstr ""
+
+#: framework/visual-composer.php:2195
+msgid "Title's Position"
+msgstr ""
+
+#: framework/visual-composer.php:2198
+msgid "Center"
+msgstr ""
+
+#: framework/visual-composer.php:2199
+msgid "Left"
+msgstr ""
+
+#: framework/visual-composer.php:2206
+msgid "Blog style"
+msgstr ""
+
+#: framework/visual-composer.php:2207
+msgid "Select a style for blog item"
+msgstr ""
+
+#: framework/visual-composer.php:2219
+msgid "Style 3"
+msgstr ""
+
+#: framework/visual-composer.php:2227
+msgid "Thumbnail size"
+msgstr ""
+
+#: framework/visual-composer.php:2230
+msgid "Default_(370x250)"
+msgstr ""
+
+#: framework/visual-composer.php:2231
+msgid "Size 01_(300x250)"
+msgstr ""
+
+#: framework/visual-composer.php:2232
+msgid "Custom"
+msgstr ""
+
+#: framework/visual-composer.php:2238
+msgid "Custom thumbnail size"
+msgstr ""
+
+#: framework/visual-composer.php:2239
+msgid "Enter image size in pixels (Example: 200x100 (Width x Height))."
+msgstr ""
+
+#: framework/visual-composer.php:2251
+msgid "Recent Post"
+msgstr ""
+
+#: framework/visual-composer.php:2252
+msgid "Popularity"
+msgstr ""
+
+#: framework/visual-composer.php:2253
+msgid "Select Post"
+msgstr ""
+
+#: framework/visual-composer.php:2256
+msgid "Choose the target to filter Blog"
+msgstr ""
+
+#: framework/visual-composer.php:2258 framework/visual-composer.php:2273
+#: framework/visual-composer.php:2284 framework/visual-composer.php:2297
+#: framework/visual-composer.php:2320 framework/visual-composer.php:2332
+msgid "Blog Settings"
+msgstr ""
+
+#: framework/visual-composer.php:2262
+msgid "Find Post"
+msgstr ""
+
+#: framework/visual-composer.php:2277
+msgid "Category Blog"
+msgstr ""
+
+#: framework/visual-composer.php:2285
+msgid ""
+"Note: If you want to narrow output, select Category(s) above. Only selected "
+"Brand will be displayed."
+msgstr ""
+
+#: framework/visual-composer.php:2289
+msgid "Per page"
+msgstr ""
+
+#: framework/visual-composer.php:2298
+msgid "How much items per page to show"
+msgstr ""
+
+#: framework/visual-composer.php:2314
+msgid "Post In"
+msgstr ""
+
+#: framework/visual-composer.php:2321
+#, php-format
+msgid "Select how to sort retrieved products. More at %s."
+msgstr ""
+
+#: framework/visual-composer.php:2325
+msgid "Sort order"
+msgstr ""
+
+#: framework/visual-composer.php:2329
+msgid "Descending"
+msgstr ""
+
+#: framework/visual-composer.php:2330
+msgid "Ascending"
+msgstr ""
+
+#: framework/visual-composer.php:2333
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: framework/visual-composer.php:2385
+msgid "Ovic: Socials"
+msgstr ""
+
+#: framework/visual-composer.php:2388
+msgid "Display Socials"
+msgstr ""
+
+#: framework/visual-composer.php:2392
+msgid "Select Style"
+msgstr ""
+
+#: framework/visual-composer.php:2424
+msgid "List Social"
+msgstr ""
+
+#: framework/visual-composer.php:2434
+msgid "Ovic: Custom Menu"
+msgstr ""
+
+#: framework/visual-composer.php:2437
+msgid "Display Custom Menu"
+msgstr ""
+
+#: framework/visual-composer.php:2442 framework/visual-composer.php:2726
+msgid "Select Layout Style"
+msgstr ""
+
+#: framework/visual-composer.php:2453
+msgid "Double"
+msgstr ""
+
+#: framework/visual-composer.php:2461
+msgid "Mega Child 01"
+msgstr ""
+
+#: framework/visual-composer.php:2465
+msgid "Mega Child 02"
+msgstr ""
+
+#: framework/visual-composer.php:2469
+msgid "Vertical Mega"
+msgstr ""
+
+#: framework/visual-composer.php:2480
+msgid "This image is shown on the top of shortcode"
+msgstr ""
+
+#: framework/visual-composer.php:2491
+msgid ""
+"What text use as a widget title. Leave blank to use default widget title."
+msgstr ""
+
+#: framework/visual-composer.php:2501
+msgid "Color On Hover Item"
+msgstr ""
+
+#: framework/visual-composer.php:2508
+msgid "Select menu to display."
+msgstr ""
+
+#: framework/visual-composer.php:2525
+msgid "Ovic: Timeline"
+msgstr ""
+
+#: framework/visual-composer.php:2528
+msgid "Create a list events"
+msgstr ""
+
+#: framework/visual-composer.php:2552
+msgid "title"
+msgstr ""
+
+#: framework/visual-composer.php:2553
+msgid "Company History"
+msgstr ""
+
+#: framework/visual-composer.php:2562
+msgid "Ovic: Event"
+msgstr ""
+
+#: framework/visual-composer.php:2565
+msgid "Create an event"
+msgstr ""
+
+#: framework/visual-composer.php:2572
+msgid "In Year"
+msgstr ""
+
+#: framework/visual-composer.php:2579
+msgid "Event info"
+msgstr ""
+
+#: framework/visual-composer.php:2585
+msgid "Month of event"
+msgstr ""
+
+#: framework/visual-composer.php:2589
+msgid "January"
+msgstr ""
+
+#: framework/visual-composer.php:2590
+msgid "February"
+msgstr ""
+
+#: framework/visual-composer.php:2591
+msgid "March"
+msgstr ""
+
+#: framework/visual-composer.php:2592
+msgid "April"
+msgstr ""
+
+#: framework/visual-composer.php:2593
+msgid "May"
+msgstr ""
+
+#: framework/visual-composer.php:2594
+msgid "June"
+msgstr ""
+
+#: framework/visual-composer.php:2595
+msgid "July"
+msgstr ""
+
+#: framework/visual-composer.php:2596
+msgid "August"
+msgstr ""
+
+#: framework/visual-composer.php:2597
+msgid "September"
+msgstr ""
+
+#: framework/visual-composer.php:2598
+msgid "October"
+msgstr ""
+
+#: framework/visual-composer.php:2599
+msgid "November"
+msgstr ""
+
+#: framework/visual-composer.php:2600
+msgid "December"
+msgstr ""
+
+#: framework/visual-composer.php:2606
+#: framework/classes/class-tgm-plugin-activation.php:2547
+msgid "Type"
+msgstr ""
+
+#: framework/visual-composer.php:2608
+msgid "IMAGE"
+msgstr ""
+
+#: framework/visual-composer.php:2609
+msgid "RAW TEXT"
+msgstr ""
+
+#: framework/visual-composer.php:2612
+msgid "Choose media type you want to use"
+msgstr ""
+
+#: framework/visual-composer.php:2623
+msgid "Add more information to describe your event "
+msgstr ""
+
+#: framework/visual-composer.php:2635
+msgid "Ovic: Google Map"
+msgstr ""
+
+#: framework/visual-composer.php:2638
+msgid "Display Google Map"
+msgstr ""
+
+#: framework/visual-composer.php:2645
+msgid "title."
+msgstr ""
+
+#: framework/visual-composer.php:2650
+msgid "Phone"
+msgstr ""
+
+#: framework/visual-composer.php:2652
+msgid "phone."
+msgstr ""
+
+#: framework/visual-composer.php:2657 framework/woo-functions.php:285
+#: framework/woo-functions.php:2423
+msgid "Email"
+msgstr ""
+
+#: framework/visual-composer.php:2659
+msgid "email."
+msgstr ""
+
+#: framework/visual-composer.php:2664
+msgid "Address"
+msgstr ""
+
+#: framework/visual-composer.php:2667
+msgid "address."
+msgstr ""
+
+#: framework/visual-composer.php:2668
+msgid "Z115 TP. Thai Nguyen"
+msgstr ""
+
+#: framework/visual-composer.php:2672
+msgid "Map Height"
+msgstr ""
+
+#: framework/visual-composer.php:2678
+msgid "Maps type"
+msgstr ""
+
+#: framework/visual-composer.php:2681
+msgid "ROADMAP"
+msgstr ""
+
+#: framework/visual-composer.php:2682
+msgid "SATELLITE"
+msgstr ""
+
+#: framework/visual-composer.php:2683
+msgid "HYBRID"
+msgstr ""
+
+#: framework/visual-composer.php:2684
+msgid "TERRAIN"
+msgstr ""
+
+#: framework/visual-composer.php:2690
+msgid "Longitude"
+msgstr ""
+
+#: framework/visual-composer.php:2693
+msgid "longitude."
+msgstr ""
+
+#: framework/visual-composer.php:2698
+msgid "Latitude"
+msgstr ""
+
+#: framework/visual-composer.php:2701
+msgid "latitude."
+msgstr ""
+
+#: framework/visual-composer.php:2706
+msgid "Zoom"
+msgstr ""
+
+#: framework/visual-composer.php:2709
+msgid "zoom."
+msgstr ""
+
+#: framework/visual-composer.php:2718
+msgid "Ovic: Title"
+msgstr ""
+
+#: framework/visual-composer.php:2721
+msgid "Title ahead of the block data"
+msgstr ""
+
+#: framework/visual-composer.php:2743
+msgid "Small Title"
+msgstr ""
+
+#: framework/visual-composer.php:2744
+msgid "The small title ahead of main title"
+msgstr ""
+
+#: framework/visual-composer.php:2754
+msgid "The main title."
+msgstr ""
+
+#: framework/visual-composer.php:2762
+msgid "Under Line Color"
+msgstr ""
+
+#: framework/woo-functions.php:281 framework/woo-functions.php:2419
+msgid "Leave a review"
+msgstr ""
+
+#: framework/woo-functions.php:283 framework/woo-functions.php:2421
+msgid "Name"
+msgstr ""
+
+#: framework/woo-functions.php:284 framework/woo-functions.php:2422
+msgid "Your name"
+msgstr ""
+
+#: framework/woo-functions.php:286 framework/woo-functions.php:2424
+#: woocommerce/myaccount/form-login.php:101
+msgid "Email address"
+msgstr ""
+
+#: framework/woo-functions.php:290 framework/woo-functions.php:2428
+msgid "Your rating"
+msgstr ""
+
+#: framework/woo-functions.php:299 framework/woo-functions.php:2437
+msgid "Your review"
+msgstr ""
+
+#: framework/woo-functions.php:328
+msgid "Gmail"
+msgstr ""
+
+#: framework/woo-functions.php:331
+msgid "Yahoo"
+msgstr ""
+
+#: framework/woo-functions.php:334
+msgid "Outlook"
+msgstr ""
+
+#: framework/woo-functions.php:337
+msgid "Mailto"
+msgstr ""
+
+#: framework/woo-functions.php:364 framework/woo-functions.php:1625
+msgid "N/A"
+msgstr ""
+
+#: framework/woo-functions.php:373 framework/woo-functions.php:1633
+msgid "SKU:"
+msgstr ""
+
+#: framework/woo-functions.php:391
+msgid "Print Page"
+msgstr ""
+
+#: framework/woo-functions.php:396
+#: framework/classes/without-toolkit-funtions.php:95
+msgid "Email to friend"
+msgstr ""
+
+#: framework/woo-functions.php:414 framework/woo-functions.php:1592
+#: framework/woo-functions.php:1638 framework/woo-functions.php:2029
+msgid "Availability:"
+msgstr ""
+
+#: framework/woo-functions.php:417 framework/woo-functions.php:2022
+msgid "In Stock"
+msgstr ""
+
+#: framework/woo-functions.php:466
+msgid "Brand:"
+msgstr ""
+
+#: framework/woo-functions.php:520
+msgid "Clear"
+msgstr ""
+
+#: framework/woo-functions.php:627
+msgid "New"
+msgstr ""
+
+#: framework/woo-functions.php:953 woocommerce/cart/cart.php:31
+#: woocommerce/cart/cart.php:67
+msgid "Product"
+msgstr ""
+
+#: framework/woo-functions.php:1017
+msgid "Googole+"
+msgstr ""
+
+#: framework/woo-functions.php:1257 framework/woo-functions.php:1343
+#: framework/woo-functions.php:1419 templates/banner/style23.php:27
+msgid "Add to cart"
+msgstr ""
+
+#: framework/woo-functions.php:1465 framework/woo-functions.php:1857
+#: framework/woo-functions.php:2457 templates/banner/deal.php:33
+#: woocommerce/product-styles/content-product-style-6.php:54
+#: woocommerce/product-styles/content-product-style-9.php:46
+msgid "Days"
+msgstr ""
+
+#: framework/woo-functions.php:1466 framework/woo-functions.php:2458
+#: templates/banner/deal.php:34
+#: woocommerce/product-styles/content-product-style-6.php:55
+#: woocommerce/product-styles/content-product-style-9.php:47
+msgid "Hrs"
+msgstr ""
+
+#: framework/woo-functions.php:1467 framework/woo-functions.php:1859
+#: framework/woo-functions.php:2459 templates/banner/deal.php:35
+#: woocommerce/product-styles/content-product-style-6.php:56
+#: woocommerce/product-styles/content-product-style-9.php:48
+msgid "Mins"
+msgstr ""
+
+#: framework/woo-functions.php:1468 framework/woo-functions.php:1860
+#: framework/woo-functions.php:2460 templates/banner/deal.php:36
+#: woocommerce/product-styles/content-product-style-6.php:57
+#: woocommerce/product-styles/content-product-style-9.php:49
+msgid "Secs"
+msgstr ""
+
+#: framework/woo-functions.php:1496
+msgid "Unlimit"
+msgstr ""
+
+#: framework/woo-functions.php:1607
+msgid "Sku:"
+msgstr ""
+
+#: framework/woo-functions.php:1710
+msgid "My Compare"
+msgstr ""
+
+#: framework/woo-functions.php:1729
+msgid "Compare"
+msgstr ""
+
+#: framework/woo-functions.php:1763
+msgid "My wishlist"
+msgstr ""
+
+#: framework/woo-functions.php:1782
+msgid "Favorites"
+msgstr ""
+
+#: framework/woo-functions.php:1817
+msgid "MY CART"
+msgstr ""
+
+#: framework/woo-functions.php:1858
+msgid "Hours"
+msgstr ""
+
+#: framework/woo-functions.php:1876
+msgid "Products found"
+msgstr ""
+
+#: framework/woo-functions.php:1904
+msgid "View mode:"
+msgstr ""
+
+#: framework/woo-functions.php:1936
+msgid "Sort by"
+msgstr ""
+
+#: framework/woo-functions.php:1938
+msgid "Default sorting"
+msgstr ""
+
+#: framework/woo-functions.php:1940
+msgid "popularity"
+msgstr ""
+
+#: framework/woo-functions.php:1941
+msgid "average rating"
+msgstr ""
+
+#: framework/woo-functions.php:1942
+msgid "newness"
+msgstr ""
+
+#: framework/woo-functions.php:1943
+msgid "price: low to high"
+msgstr ""
+
+#: framework/woo-functions.php:1944
+msgid "price: high to low"
+msgstr ""
+
+#: framework/woo-functions.php:1955
+msgid " Products/Page"
+msgstr ""
+
+#: framework/woo-functions.php:1970
+msgid "Show:"
+msgstr ""
+
+#: framework/woo-functions.php:1979
+msgid "Show All"
+msgstr ""
+
+#: framework/woo-functions.php:1993
+msgid "Sort by:"
+msgstr ""
+
+#: framework/woo-functions.php:2025
+msgid "Out stock"
+msgstr ""
+
+#: framework/woo-functions.php:2121
+msgid "review"
+msgstr ""
+
+#: framework/woo-functions.php:2122
+msgid "reviews"
+msgstr ""
+
+#: framework/woo-functions.php:2150
+msgid "Browse"
+msgstr ""
+
+#: framework/woo-functions.php:2173
+msgid "Cross Sell Products"
+msgstr ""
+
+#: framework/woo-functions.php:2175
+msgid "Related Products"
+msgstr ""
+
+#: framework/woo-functions.php:2177
+msgid "Upsell Products"
+msgstr ""
+
+#: framework/woo-functions.php:2250
+msgid "Sold by:"
+msgstr ""
+
+#: framework/woo-functions.php:2292
+#, php-format
+msgid "already Sold: %s"
+msgstr ""
+
+#: framework/woo-functions.php:2294
+msgid "Available:"
+msgstr ""
+
+#: framework/woo-functions.php:2328
+msgid "View and edit cart"
+msgstr ""
+
+#: framework/woo-functions.php:2419
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: framework/woo-functions.php:2429
+msgid "Rate&hellip;"
+msgstr ""
+
+#: framework/woo-functions.php:2430
+msgid "Perfect"
+msgstr ""
+
+#: framework/woo-functions.php:2431
+msgid "Good"
+msgstr ""
+
+#: framework/woo-functions.php:2432
+msgid "Average"
+msgstr ""
+
+#: framework/woo-functions.php:2433
+msgid "Not that bad"
+msgstr ""
+
+#: framework/woo-functions.php:2434
+msgid "Very poor"
+msgstr ""
+
+#: framework/woo-functions.php:2437
+msgid "Your comments"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:206
+msgid "Browse:"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:207
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:208
+msgid "Home"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:209
+msgid "404 Not Found"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:210
+msgid "Archives"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:212
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:214
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:216
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:218
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:597
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:613
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:629
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:644
+#: framework/classes/class-breadcrumb-trail.php:669
+#: framework/classes/class-breadcrumb-trail.php:692
+#: framework/classes/class-breadcrumb-trail.php:715
+#: framework/classes/class-breadcrumb-trail.php:977
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:645
+#: framework/classes/class-breadcrumb-trail.php:693
+#: framework/classes/class-breadcrumb-trail.php:980
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:646
+#: framework/classes/class-breadcrumb-trail.php:983
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: framework/classes/class-breadcrumb-trail.php:670
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:386
+#: framework/classes/class-tgm-plugin-activation.php:827
+#: framework/classes/class-tgm-plugin-activation.php:2532
+#: framework/classes/class-tgm-plugin-activation.php:3577
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:387
+#: framework/classes/class-tgm-plugin-activation.php:3157
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:388
+#: framework/classes/class-tgm-plugin-activation.php:2950
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:933
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:933
+#: framework/classes/class-tgm-plugin-activation.php:936
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:936
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1120
+#: framework/classes/class-tgm-plugin-activation.php:2946
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1981
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2272
+msgid "Required"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2275
+msgid "Recommended"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2291
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2294
+msgid "External Source"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2297
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2314
+msgid "Not Installed"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2318
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2320
+msgid "Active"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2326
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2329
+msgid "Requires Update"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2332
+msgid "Update recommended"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2341
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2387
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2391
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2395
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2399
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2481
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2489
+msgid "Installed version:"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2497
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2509
+msgid "Available version:"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2532
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2545
+msgid "Plugin"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2546
+msgid "Source"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2551
+msgid "Version"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2552
+msgid "Status"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2601
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2606
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2612
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2682
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2715
+msgid "Install"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2721
+msgid "Update"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2724
+msgid "Activate"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2755
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2798
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2906
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2932
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3156
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3496
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3499
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3505
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3507
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3507
+#: framework/classes/class-tgm-plugin-activation.php:3515
+msgid "Show Details"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3507
+#: framework/classes/class-tgm-plugin-activation.php:3515
+msgid "Hide Details"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3508
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3510
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3513
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3515
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3516
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3518
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:83
+msgid "has been added to cart!"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:84
+msgid "View Cart"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:85
+msgid "Product has been added to cart!"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:87
+msgid "Product has been added to wishlist!"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:89
+msgid "Browse Wishlist"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:90
+msgid "Notice!"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:92
+msgid "Product Removed"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:226
+msgid ""
+"The items on desktop (Screen resolution of device >= 1200px and < 1500px )"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:232
+msgid "The items on desktop (Screen resolution of device >= 992px < 1200px )"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:238
+msgid "The items on tablet (Screen resolution of device >=768px and < 992px )"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:244
+msgid ""
+"The items on mobile landscape(Screen resolution of device >=480px and < "
+"768px)"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:250
+msgid "The items on mobile (Screen resolution of device < 480px)"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:259
+msgid "Copyright © "
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:261
+msgid " Bianco"
+msgstr ""
+
+#: framework/classes/without-toolkit-funtions.php:262
+msgid "All rights reserved"
+msgstr ""
+
+#: import/import.php:92 import/import.php:93
+msgid "Import Demos"
+msgstr ""
+
+#: templates/banner/deal.php:48 templates/banner/deal_2.php:30
+msgid "Buy now"
+msgstr ""
+
+#: templates/banner/style23.php:26
+msgid "View Products Detail"
+msgstr ""
+
+#: templates/blog/blog-default.php:28
+msgid "No title"
+msgstr ""
+
+#: templates/blog/blog-default.php:43
+msgctxt "Used before publish date."
+msgid "Posted on: "
+msgstr ""
+
+#: templates/blog/blog-default.php:49
+msgctxt "Used before post author name."
+msgid "By: "
+msgstr ""
+
+#: templates/blog/blog-related.php:83
+msgid "older"
+msgstr ""
+
+#: templates/blog/blog-related.php:90
+msgid "newer"
+msgstr ""
+
+#: vc_templates/ovic_custommenu.php:72
+msgid "No Content."
+msgstr ""
+
+#: vc_templates/ovic_products.php:218
+msgid "No Product"
+msgstr ""
+
+#: vc_templates/ovic_products.php:239
+msgid "LOAD MORE PRODUCTS"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:84
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:90
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:108
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:79
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:122
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:140
+msgid "continue Shopping"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+msgid "Clear cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:147
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:149
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:151
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:33
+msgid "Quantity:"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:42
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:33
+msgid "Login your Account"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:44
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:50
+#: woocommerce/myaccount/form-login.php:110
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:60
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:64
+msgid "Forgot password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:82
+#: woocommerce/myaccount/form-login.php:121
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:92
+msgid "Username"
+msgstr ""
+
+#: woocommerce/product-styles/content-product-style-3.php:11
+msgid "DAY OF THE DEALS"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:37
+#, php-format
+msgid "%s reviews"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""

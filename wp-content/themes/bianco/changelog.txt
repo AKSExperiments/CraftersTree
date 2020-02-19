@@ -1,0 +1,18 @@
+== Bianco Changelog ==
+
+***** Released version 1.0.4 *****
+    Updated : Compatible Woocommerce v3.7.0
+    Updated : Cart template
+
+***** Released version 1.0.3 *****
+    Updated : Bianco-toolkit for version 1.0.3
+    Updated : Options home-furniture for home page option
+
+***** Released version 1.0.2 *****
+    Updated : Compatible Woocommerce v3.6.1
+
+***** Released version 1.0.1 *****	
+    Update  : Options home-appliance, home-digital for home page option
+
+***** Released version 1.0.0 *****
+Initial release

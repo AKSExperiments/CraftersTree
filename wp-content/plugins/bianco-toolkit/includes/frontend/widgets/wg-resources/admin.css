@@ -1,0 +1,31 @@
+.prices-filters .frm-title{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.prices-filters{
+    padding: 15px;
+    background-color: #fcfcfc;
+}
+.prices-filters input[type=number]{
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.prices-filters .button{
+    margin-top: 15px;
+}
+.prices-filters + ul.results{
+    background: #eeeeee;
+    margin-bottom: 35px;
+}
+.prices-filters + ul.results li{
+    display: block;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-bottom: 1px dashed #dddddd;
+}
+.prices-filters + ul.results li:first-child{
+    border-top: 1px dashed #dddddd;
+}
