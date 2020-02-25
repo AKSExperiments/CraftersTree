@@ -66,5 +66,26 @@ function save_metabox_data( $post_id ) {
 }
 add_action( 'edit_post', 'save_metabox_data' );
 
+//////////////////////////////////////////////////////////////////////////////////
+
+/**
+ * @uses wp_get_current_user()          Returns a WP_User object for the current user
+ */
+if( !function_exists('restric_Users') ) {
+    function restric_Users($user_id){
+
+        // if(get_post_meta( get_the_ID(), 'restricTEdURL', true )){
+        //    echo "test";
+        // }
+
+        // $user = wp_get_current_user();
+        // $allowed_roles = array('editor', 'administrator', 'author');        
+        // if( !array_intersect($allowed_roles, $user->roles ) ) {
+        //     echo "This user has no role";
+        // }
+    }  
+    add_action("init", "restric_Users"); 
+}
+
 
 ?>
