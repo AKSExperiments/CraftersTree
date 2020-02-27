@@ -71,20 +71,34 @@ add_action( 'edit_post', 'save_metabox_data' );
 /**
  * @uses wp_get_current_user()          Returns a WP_User object for the current user
  */
-if( !function_exists('restric_Users') ) {
-    function restric_Users($user_id){
-
-        // if(get_post_meta( get_the_ID(), 'restricTEdURL', true )){
-        //    echo "test";
-        // }
+if( !function_exists('restricUsers') ) {
+    function restricUsers($user_id){
 
         // $user = wp_get_current_user();
         // $allowed_roles = array('editor', 'administrator', 'author');        
         // if( !array_intersect($allowed_roles, $user->roles ) ) {
         //     echo "This user has no role";
+        // }       
+
+        // global $post;
+        // $pID = $post->ID;
+        // if(get_post_meta( $pID, 'restricTEdURL', true )){
+            
         // }
-    }  
-    add_action("init", "restric_Users"); 
+
+        global $post;
+        $pID = $post->ID;
+        if(get_post_meta( $pID, 'restricTEdURL', true )){
+            $user = wp_get_current_user();
+            $allowed_roles = array('editor', 'administrator', 'author');        
+            if( !array_intersect($allowed_roles, $user->roles ) ) {
+                //echo "sdsdsdsdsdsdsdsd";
+                $url = get_permalink('66');
+                wp_redirect($url);
+            }
+        }
+    }
+    add_action("wp_load", "restricUsers"); 
 }
 
 
