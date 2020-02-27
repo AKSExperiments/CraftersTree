@@ -38,7 +38,7 @@ if( !function_exists('cm_createrole') ) {
 
 if( !function_exists('cm_removerole') ) {
     function cm_removerole(){ 
-        remove_role( 'custom_user1' );
+        remove_role( 'CT_LTD' );
     }
     register_deactivation_hook( __FILE__, 'cm_removerole' );
 }
