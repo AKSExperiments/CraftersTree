@@ -24,8 +24,19 @@ if ( !defined('CT_LTD_ARR') ) {
         'editor',
         'administrator',
         'author',
-        CT_LTD
+        CT_LTD,
     ]);
+}
+if ( !defined('POST_TYPES') ) {
+    define ( 'POST_TYPES', [
+        "post",
+        "page",
+        "media",
+        "product",
+    ]);
+}
+if( !defined('META_KEY') ) {
+    define ( 'META_KEY', 'restrictedURL' );
 }
  
 
@@ -66,7 +77,7 @@ if( !function_exists('custom_meta_box_markup') ) {
 
 if( !function_exists('add_custom_meta_box') ) {
     function add_custom_meta_box(){
-        add_meta_box("demo-meta-box", "Restrict Content", "custom_meta_box_markup", array("post", "page", "media", "product"), "side", "high", null);
+        add_meta_box("demo-meta-box", "Restrict Content", "custom_meta_box_markup", POST_TYPES, "side", "high", null);
     }  
     add_action("add_meta_boxes", "add_custom_meta_box"); 
 }
@@ -76,7 +87,7 @@ function save_metabox_data( $post_id ) {
     
     if(isset($_POST["myCheckbox"])) {        
         $postId = get_the_ID();
-        update_post_meta( $post_id = $postId, $key = 'restrictedURL', $value = 'true' );        
+        update_post_meta( $post_id = $postId, $key = META_KEY, $value = 'true' );        
     }else{
         $postId = get_the_ID();
         delete_post_meta($post_id = $postId, "restrictedURL");
@@ -90,20 +101,29 @@ add_action( 'edit_post', 'save_metabox_data' );
 /**
  * @uses wp_get_current_user()          Returns a WP_User object for the current user
  */
-if( !function_exists('restrict_users') ) {
-    function restrict_users($user_id){
+if( !function_exists('restrict_by_meta') ) {
 
-        global $post;
-        $postID = $post->ID;
-        if(get_post_meta( $postID, 'restrictedURL', true )){
-            $user = wp_get_current_user();     
-            if( !array_intersect(CT_LTD_ARR, $user->roles ) ) {
-                $url = get_permalink('2255');
-                wp_redirect($url);
+    function restrict_by_meta($query) {
+        $user = wp_get_current_user();     
+        if( !array_intersect(CT_LTD_ARR, $user->roles ) ) {
+            if ( ! is_admin() && $query->is_main_query() ) {
+                $query-> set('meta_query', array(
+                    'relation' => 'OR',
+                    array(
+                        'key'     => META_KEY,
+                        'value'   => 'true',
+                        'compare' => '!=',
+                    ),
+                    array(
+                        'key'     => META_KEY,
+                        'compare' => 'NOT EXISTS'
+                    ),
+                ));
             }
         }
     }
-    add_action("wp", "restrict_users"); 
+
+    add_action('pre_get_posts', 'restrict_by_meta');
 }
 
 
