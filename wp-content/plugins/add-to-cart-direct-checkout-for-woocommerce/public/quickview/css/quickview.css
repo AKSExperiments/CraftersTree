@@ -1,0 +1,61 @@
+.pisol_quick_view_button{
+    padding:10px 15px !important;
+    margin-top:10px;
+    margin-bottom:10px;
+    display: block !important;
+    text-align: center;
+    width:100% !important;
+    cursor:pointer;
+}
+
+.pisol-quick-view-box{
+    width:50% !important;
+    margin:auto;
+    position:relative;
+}
+
+.pisol-quick-view-box .images, .pisol-quick-view-box .summary{
+    float: none !important;
+}
+
+.pisol-quick-view-box .images{
+    width:100% !important;
+   
+}
+
+.pisol-quick-view-box .summary{
+    padding:20px;
+}
+
+.quick-view-container{
+    display:flex;
+}
+
+.mfp-close-btn-in .mfp-close{
+    border-radius:0px;
+}
+
+.mfp-close:hover{
+    background-color:transparent;
+}
+
+.pisol-quick-view-box .input-text{
+    width:100%;
+    margin-bottom:10px;
+}
+
+.pisol-quick-view-box button[type="submit"]{
+    width:100%;
+}
+
+
+
+@media (max-width:768px){
+    .pisol-quick-view-box{
+        width:96% !important;
+    }
+
+    .quick-view-container{
+        display:block;
+    }
+}
