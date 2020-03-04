@@ -14,7 +14,7 @@ if ( ! empty( $_POST ) && check_admin_referer( 'phoen_rewpts_form_action', 'phoe
 		
 		$reedem_point=sanitize_text_field($_POST['reedem_point']);
 		
-		$phoe_rewpts_value = array(
+		$phoe_set_point_value = array(
 		
 			'enable_plugin'=>$enable_plugin,
 		
@@ -28,13 +28,13 @@ if ( ! empty( $_POST ) && check_admin_referer( 'phoen_rewpts_form_action', 'phoe
 		
 		);
 		
-		update_option('phoe_rewpts_value',$phoe_rewpts_value);
+		update_option('phoe_set_point_value',$phoe_set_point_value);
 		
 	}
 	
 }
 
-	$gen_settings = get_option('phoe_rewpts_value');
+	$gen_settings = get_option('phoe_set_point_value');
 	
 	$enable_plugin=isset($gen_settings['enable_plugin'])?$gen_settings['enable_plugin']:'';
 			
@@ -71,6 +71,22 @@ if ( ! empty( $_POST ) && check_admin_referer( 'phoen_rewpts_form_action', 'phoe
 						
 							<input type="checkbox"  name="enable_plugin" id="enable_plugin" value="1" <?php echo(isset($gen_settings['enable_plugin']) && $gen_settings['enable_plugin'] == '1')?'checked':'';?>>
 							
+						</td>
+						<td></td>
+						
+					</tr>
+					<tr class="phoeniixx_phoe_rewpts_wrap">
+				
+						<th>
+						
+							<label><?php _e('Enable Product Based Reward Points','phoen-rewpts'); ?> </label>
+							
+						</th>
+						
+						<td>
+						
+							<input type="checkbox"  readonly name="enable_" id="enable_" value="1" <?php echo(isset($gen_settings['enable_plugin']) && $gen_settings['enable_plugin'] == '1')?'checked':'';?>>
+							<a target="_blank" href="https://www.phoeniixx.com/product/reward-points-for-woocommerce/?utm_source=Wordpress&utm_medium=cpc&utm_campaign=Free%20Reward%20Point&utm_term=Free%20Reward%20Point&utm_content=Free%20Reward%20Point">Go To Premium</a>
 						</td>
 						<td></td>
 						

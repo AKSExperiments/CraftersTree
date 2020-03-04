@@ -83,6 +83,9 @@ After that, use the shortcode to display the button where you want.
 
 == Changelog ==
 
+= 2.8.2 =
+* Updated: Compatible with WordPress 5.3.2 & WooCommerce 3.9.2
+
 = 2.8.1 =
 * Updated: Optimized the code
 

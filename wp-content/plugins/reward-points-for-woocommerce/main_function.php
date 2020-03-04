@@ -24,7 +24,7 @@ function phoen_reward_redeem_point(){
 
 function phoen_reward_point_value(){
 
-	$gen_val = get_option('phoe_rewpts_value');
+	$gen_val = get_option('phoe_set_point_value');
 	
 	$reward_point=isset($gen_val['reward_point'])?$gen_val['reward_point']:0;
 	

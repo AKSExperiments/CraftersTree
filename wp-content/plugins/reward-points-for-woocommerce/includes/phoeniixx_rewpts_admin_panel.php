@@ -23,6 +23,17 @@ if(!isset($_GET['pagination']) && !isset($_GET['user_view_points'] ) &&  !isset(
 	<?php
 	
 }
+else if(isset($_GET['user']) && $_GET['action']=='view'){
+	
+	include_once(PHOEN_REWPTSPLUGPATH.'includes/admin/reports/phoen_user_view_point.php');
+	
+}else if(isset($_GET['user'])  && $_GET['action']=='edit')
+{
+	include_once(PHOEN_REWPTSPLUGPATH.'includes/admin/reports/phoen_user_edit_points.php');
+	
+}
+
+
 function phoen_order_count($id) {
 	
 	global $woocommerce;

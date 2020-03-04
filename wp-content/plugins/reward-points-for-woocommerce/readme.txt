@@ -4,7 +4,7 @@ Contributors: phoeniixx
 Tags: phoeniixx, woocommerce, woocommerce Reward, points, Reward points, woocommerce reward points, get points, get rewards, discount, woocommerce points, wc rewards, woocommerce plugin,  wc points, sign up points , review points , first order points , payment gateway points , redemption value , points expiry , product based points , category based points , validity date , phoenix , phoenixx
 Requires at least: 4.0
 Tested up to: 5.3
-Stable tag: 3.4
+Stable tag: 4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,9 +19,13 @@ It is a plugin which provides the customers to get the reward points on the basi
 
 = Features: =
 
-* <strong>NEW</strong> : User can see the reward point balance on his account page.
-* <strong>NEW</strong> : Can enable / disable the points notification message on Cart as well as on Checkout page.
-* <strong>NEW</strong> : Can edit the points notification message. 
+* <strong>NEW</strong> : Admin can add the points for a particular customer.
+* <strong>NEW</strong> : Admin can view the customers points history from the backend.
+* <strong>NEW</strong> : Can enable / disable the points notification message on Single Product Page.
+* <strong>NEW</strong> : Users can view the points in tabular form in their account page.
+* User can see the reward point balance on his account page.
+* Can enable / disable the points notification message on Cart as well as on Checkout page.
+* Can edit the points notification message. 
 * Option to set reward points on the basis of the money spent by the customers. 
 * Option to set the redemption value. 
 * Customers get the reward points once the order has been completed.
@@ -99,6 +103,12 @@ Here is our premium wordpress theme
 5. Shows the applied reward point. 
 
 == Changelog ==
+
+= 4.1 - 04/03/2020 =
+* Issues fixed
+
+= 4.0 - 03/03/2020 =
+* New features added
 
 = 3.4 - 19/11/2019 =
 * Compatible with latest version of wordpress

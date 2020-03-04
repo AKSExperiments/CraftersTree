@@ -25,3 +25,23 @@ select.page-range {
     display: inline-block;
     margin-top: 7px;
 }
+.reward-points_page_phoe_set_point_value .wrap > div > p span {
+    background-color: #2774ab;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.reward-points_page_phoe_set_point_value .wrap > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reward-points_page_phoe_set_point_value .wrap > div p {
+    margin-bottom: 0;
+}

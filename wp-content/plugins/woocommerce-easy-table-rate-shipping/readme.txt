@@ -1,35 +1,38 @@
-=== WooCommerce Table Rate Shipping by JEM ===
+=== WooCommerce Advanced Shipping ===
 Contributors: merlinmonmouth
 Donate link: https://www.jem-products.com
-Tags: table rate, table rate shipping, woocommerce shipping, woocommerce table rate shipping, woocommerce tiered shipping, table rate shipping, shipping, country, shipping by weight, weight based shipping, cart total, shipping by price, woocommerce, table rate, shipping, calculator
+Tags: free shipping, table rate shipping, woocommerce shipping, woocommerce table rate shipping, woocommerce tiered shipping, table rate shipping, shipping, country, shipping by weight, weight based shipping, cart total, shipping by price, woocommerce, table rate, shipping, calculator
 Requires at least: 4.0
-Tested up to: 5.2
-Stable tag: 2.0.6
+Tested up to: 5.3.2
+Stable tag: 2.0.7
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Super flexible Table Rate Shipping for Woocommerce plugin. Calculate shipping using country, weight and/or price and more. Supports WooCommerce shipping zones. Very easy to use.
+The most advanced Woocommerce shipping plugin. Calculate shipping using country, weight and/or price and more. Supports WooCommerce shipping zones. Very easy to use.
 
 == Description ==
 
 = Table Rate Shipping =
 
-An amazing WooCommerce Table Rate Shipping plugin then look no further! A super easy to use plugin that will provide your WooCommerce site with table rate shipping - sometimes referred to as tiered shipping.
+An amazing WooCommerce Table Rate Shipping plugin - look no further this is exactly what you need! A super easy to use plugin that will provide your WooCommerce site with table rate shipping - sometimes referred to as tiered shipping.
+
+This a very easy to use plugin, take a look at this video and you will be able to see just how easy it is to use.
+
+[youtube https://youtu.be/7ArHs8GUL88]
 
 It is super-easy to add to your WooCommerce store and set up shipping rules.
 
 = Key Features =
 * Seamless integration with WooCommerce shipping zones
 * Super easy to use - very intuitive user interface
+* Define the shipping label that shows up in the cart for the buyer
 * Define Shipping by Total Cost
 * Define Shipping by Weight
 * Include or exclude Tax
 * You can set up multiple tiers - effective for most stores
 * Add additional handling fees for each order
 
-This a very easy to use plugin, take a look at this video and you will be able to see just how easy it is to use.
 
-[youtube https://youtu.be/7ArHs8GUL88]
 
 = Pro Version Features =
 >
@@ -82,6 +85,10 @@ We support ALL WooCommerce countries and currencies. If it is in WooCommerce, th
 
 
 == Changelog ==
+
+= 2.0.7 =
+New assets and support for WooCommerce 3.9 and WordPress 5.3
+
 = 2.0.6 =
 Fixing pr name collision
 

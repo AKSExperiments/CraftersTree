@@ -17,6 +17,22 @@ class Phoen_Reward_All_User extends WP_List_Table {
 		] );
 
 	}
+	function column_user_email( $item ) {
+		
+		// create a nonce
+		$delete_nonce = wp_create_nonce( 'phoen_user_list_delete_user' );
+		$edit_nonce = wp_create_nonce( 'phoen_user_list_edit_user' );
+  
+		$title = '<strong>' . $item['user_email'] . '</strong>';
+  
+		$actions = [
+		  
+		  'edit' => sprintf( '<a href="?page=%s&action=%s&user=%s&_wpnonce=%s">Edit</a>', esc_attr( $_REQUEST['page'] ), 'edit', absint( $item['ID'] ), $delete_nonce ),
+		 'view' => sprintf( '<a href="?page=%s&action=%s&user=%s&_wpnonce=%s">View</a>', esc_attr( $_REQUEST['page'] ), 'view', absint( $item['ID'] ), $edit_nonce )
+		];
+  
+		return $title . $this->row_actions( $actions );
+	  }
 	
 	function get_columns(){
 	  $columns = array(

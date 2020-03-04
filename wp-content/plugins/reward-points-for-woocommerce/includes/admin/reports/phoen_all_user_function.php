@@ -6,7 +6,6 @@ $offset = 0;
 $posts_per_page = 500;
 $args = array(
 		'post_type'      => 'shop_order',
-		//'fields'         => 'ids',
 		'offset'         => $paged,
 		'posts_per_page' => $posts_per_page,
 		'post_status'    =>array('wc-completed','wc-refunded')//array_keys(wc_get_order_statuses())
@@ -52,7 +51,7 @@ for($a=0;$a<count($user_detail);$a++) {
 		
 		$all_user_list_data [$a]['ID'] = $user_detail[$a]['ID'];
 		
-		$gen_val = get_option('phoe_rewpts_value');
+		$gen_val = get_option('phoe_set_point_value');
 		
 		$reward_point_value_data = phoen_reward_point_value();
 
@@ -82,31 +81,17 @@ for($a=0;$a<count($user_detail);$a++) {
 				
 				$point_reward=0;
 				$tpoint_reward=0;
-				/* if($products_order[$i]->post_status=="wc-completed")
-				{
-					$data_count++;
-					
-					$point_reward= $order_bill*$ptsperprice;
-					
-					
-				} */
 				
 				if($products_order[$i]->post_status=="wc-completed")
 				{
-					$total_point_reward+= $get_reward_point-$used_reward_point;
+					$total_point_reward+= $get_reward_point;
+					$total_point_reward-= $used_reward_point;
+					//$tpoint_reward+=$total_point_reward-$used_reward_point;
 					
 				}
-				//$order_count++;
-				if($products_order[$i]->post_status=="wc-refunded")
-				{
-					$point_rewardt= ltrim($used_reward_point,'-');
-					$point_reward=($order_bill*$reedem_point)+$point_rewardt;
-				} 
 				
-				$tpoint_reward+=$used_reward_point+$point_reward;
+				$tpoint_reward+=$used_reward_point;
 			
-				//$total_point_reward+=$tpoint_reward;
-				
 				$amount_spent+=$order_bill;
 				
 				$order_count++;
@@ -115,14 +100,14 @@ for($a=0;$a<count($user_detail);$a++) {
 			
 		}	
 	
-			
+		$admin_point  = get_post_meta($id,'phoes_customer_points_update_valss',true);		
 	$all_user_list_data [$a]['order_count'] =  $order_count; 
 			
 	$amount_spent = round($amount_spent) ; 
 			
 	$all_user_list_data [$a]['amount_spent'] =  $curr.$amount_spent; 
 
-	$all_user_list_data [$a]['total_point_reward'] = round($total_point_reward); 
+	$all_user_list_data [$a]['total_point_reward'] = round($total_point_reward+$admin_point); 
 
 	$all_user_list_data [$a]['amount_in_wallet'] = $curr.round($total_point_reward/$reedem_value,2);
 

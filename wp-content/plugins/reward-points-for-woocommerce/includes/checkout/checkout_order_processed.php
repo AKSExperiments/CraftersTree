@@ -6,7 +6,7 @@ function phoen_rewpts_click_on_checkout_action( $order_id ){
 		return;
 	}
 	
-	$gen_val = get_option('phoe_rewpts_value');
+	$gen_val = get_option('phoe_set_point_value');
 	
 	$reward_point=isset($gen_val['reward_point'])?$gen_val['reward_point']:'';
 	
@@ -40,13 +40,13 @@ function phoen_rewpts_click_on_checkout_action( $order_id ){
 		
 	$get_reward_amount = ($bill_price-$used_reward_amount);
 	
-	$phoe_rewpts_value = array(
+	$phoe_set_point_value = array(
 				 
 		'phoen_reward_enable'=>1,
 		
-		'total_reward_point'=>$reedem_point, //total reward points
+		'total_reward_point'=>round($reedem_point,2), //total reward points
 		
-		'total_reward_amount'=>$reedem_amt,  //total reward amount
+		'total_reward_amount'=>round($reedem_amt,2),  //total reward amount
 		
 		'used_reward_point'=>$used_reward_point, // get used reward point if used
 		
@@ -56,16 +56,16 @@ function phoen_rewpts_click_on_checkout_action( $order_id ){
 		
 		'reedem_per_price'=>$reedem_value, //REEDEM PER PRICE
 		
-		'get_reward_point'=>$get_reward_point, //get reward points from shopping
+		'get_reward_point'=>round($get_reward_point,2), //get reward points from shopping
 		
-		'get_reward_amount'=>$get_reward_amount // order amount
+		'get_reward_amount'=>round($get_reward_amount,2), // order amount
 		
 	);
-/* 	echo "<pre>";
-	print_r($phoe_rewpts_value);
-	echo "</pre>";
-	die(); */
-   update_post_meta( $order_id, 'phoe_rewpts_order_status', $phoe_rewpts_value );
+ 	// echo "<pre>";
+	// print_r($phoe_set_point_value);
+	// echo "</pre>";
+	// die(); 
+   update_post_meta( $order_id, 'phoe_rewpts_order_status', $phoe_set_point_value );
 
    session_destroy();
 }
