@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'crafterstree' );
 
+define( 'DB_NAME', 'u903991210_ct' );
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'u903991210_ctadmin' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'yolo' );
+define( 'DB_PASSWORD', 't41b46B' );
 
 /** MySQL hostname */
-define( 'DB_HOST', '10.126.32.3' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -77,7 +77,7 @@ $table_prefix = 'crafterstree_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
 define('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy publishing. */
