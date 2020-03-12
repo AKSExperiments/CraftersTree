@@ -48,7 +48,7 @@ if ( !class_exists( 'Shortcode_Ovic_Socials' ) ) {
                         <?php if ( isset( $all_socials[$value] ) ) :
                             $array_socials = $all_socials[$value]; ?>
                             <li>
-                                <a href="<?php echo esc_url( $array_socials['link_social'] ) ?>">
+                                <a target="_blank" href="<?php echo esc_url( $array_socials['link_social'] ) ?>">
                                     <span class="<?php echo esc_attr( $array_socials['icon_social'] ); ?>"></span>
                                     <?php echo esc_html( $array_socials['title_social'] ); ?>
                                 </a>

@@ -211,7 +211,7 @@
 
         _content.addClass('loading');
         _form.find('.post_id_magamenu').val(_this.data('post_id'));
-        _content.html('<iframe id="iframe-content" onload="$(\'.ovic-menu-tab-builder\').removeClass(\'loading\');" src="' + _url + '" width="100%" height="100%">Waiting for content ...</iframe>');
+        _content.html('<iframe id="iframe-content" onload="jQuery(\'.ovic-menu-tab-builder\').removeClass(\'loading\');" src="' + _url + '" width="100%" height="100%">Waiting for content ...</iframe>');
     });
     $(document).on('click', '.ovic-menu-save-settings', function (e) {
         e.preventDefault();

@@ -1,5 +1,6 @@
-"use strict";
-$(document).on('click','.prices-filters .button.btn_save', function(e){
+(function($) {
+    "use strict";
+    $(document).on('click','.prices-filters .button.btn_save', function(e){
     e.preventDefault();
     var _this = $(this),
         _min = 0,
@@ -40,4 +41,4 @@ function take_result_data(id){
         });
     }
     _store_data.val(_data);
-}
+}})(jQuery);
