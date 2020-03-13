@@ -5,7 +5,7 @@
  * when users open or close the front page sections section.
  */
 
-(function () {
+(function ($) {
     wp.customize.bind('ready', function () {
         /* Options Reset Customizer Field */
         $.fn.ovic_reset_field = function () {
