@@ -1290,10 +1290,6 @@ final class WOOCS {
         if (!$suppress_filters) {
             $currencies = apply_filters('woocs_currency_data_manipulation', $currencies);
         }
-        
-         if (count($currencies) > 2) {
-            $currencies = array_slice($currencies, 0, 2);
-        }
 
         return $currencies;
     }
