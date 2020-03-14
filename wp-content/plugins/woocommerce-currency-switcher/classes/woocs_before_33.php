@@ -1138,11 +1138,6 @@ final class WOOCS {
         if (count($currencies) < 2) {
             $currencies = $default;
         }
-        
-         if (count($currencies) > 2) {
-            $currencies = array_slice($currencies, 0, 2);
-        }
-
 
         return $currencies;
     }
