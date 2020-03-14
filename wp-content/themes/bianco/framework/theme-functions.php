@@ -46,7 +46,7 @@ if ( !function_exists( 'bianco_footer_mobile' ) ) {
                 <div class="wcml-currency-switcher-container">
                     <h4><?php echo esc_html__( 'Currency', 'bianco' ); ?></h4>
 					<?php echo do_shortcode( '[currency_switcher format="%code%" switcher_style="wcml-vertical-list"]' ); ?>
-                </div>
+                </div>				
 			<?php endif; ?>
             <div class="my-account-container">
                 <h4><?php echo esc_html__( 'My Account', 'bianco' ); ?></h4>
@@ -97,8 +97,8 @@ if ( !function_exists( 'bianco_footer_mobile' ) ) {
 				<?php endif; ?>
                 <div class="mobile-block mobile-block-global">
                     <a class="menu-bar myaccount-toggle" href="javascript:void(0)">
-                        <span class="fa fa-globe"></span>
-                        <span class="text"><?php echo esc_html__( 'Global', 'bianco' ); ?></span>
+                        <span class="fa fa-user"></span>
+                        <span class="text"><?php echo esc_html__( 'My Account', 'bianco' ); ?></span>
                     </a>
                 </div>
             </div>

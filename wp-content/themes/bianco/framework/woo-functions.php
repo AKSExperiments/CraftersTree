@@ -1739,10 +1739,12 @@ if ( !function_exists( 'bianco_display_compare_block' ) ) {
 		if ( class_exists( 'YITH_Woocompare' ) ) :
 			global $yith_woocompare;
 			?>
+			
             <div class="block-compare">
                 <a href="<?php echo add_query_arg( array( 'iframe' => 'true' ), $yith_woocompare->obj->view_table_url() ) ?>"
                    class="compare added" rel="nofollow">
                     <i class="bianco-icon icon-compare"></i>
+					<!-- <img src="/wp-content/uploads/2020/03/compare-icon.ico" alt="compare icon"/> -->
                     <span class="compare-count"><?php echo count( $yith_woocompare->obj->products_list ); ?></span>
                 </a>
             </div>
