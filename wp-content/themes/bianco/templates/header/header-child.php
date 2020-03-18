@@ -12,7 +12,7 @@ $user_all_social = Bianco_Functions::get_option( 'user_all_social', array() );
             <div class="item-top-left">
                 <?php do_action( 'bianco_top_left_menu' ); ?>
             </div>
-            <div class="item-top-right">
+            <div class="item-top-right">                
                 <?php do_action( 'bianco_top_right_menu' ); ?>
             </div>
         </div>

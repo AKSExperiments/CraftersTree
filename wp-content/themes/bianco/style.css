@@ -129,4 +129,52 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .footer-logo{
 	width: 180px;
 }
+.contact-info-content .desc-site{
+	margin-bottom: 0 !important;
+}
+.contact-info-content .desc-site a{
+	color: #aaaaaa !important;
+}
+.contact-info-content .desc-site a:hover{
+	color: #fff !important;
+}
+
+.newsletterTitleFooter{
+	font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    border: none;
+    margin-bottom: 24px;
+    padding-top: 17px;
+}
+.subscribButtonfooter{
+	background-color:#f18a27;
+	border: none;
+	color:#fff;
+	padding: 7px 15px;
+	margin-top: 3px; 
+	width: 100%;
+	border-radius: 3px;
+}
+.subscribButtonfooter:hover{
+	background-color:#313131;	
+	
+}
+@media only screen and (max-width: 767px) {
+  .newsletterTitleFooter{
+	  font-size: 15px;	 
+	}
+}
+@media only screen and (max-width: 992px) {
+	.mobile-footer .mobile-block .fa{
+		color: #f18a27 !important;
+	}
+	.mobile-footer .mobile-block .text{
+		color: #f18a27 !important;
+	}
+}
+
 /*Custom css ends here*/

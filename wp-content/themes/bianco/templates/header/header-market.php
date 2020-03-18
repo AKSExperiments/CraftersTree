@@ -9,8 +9,9 @@
             <div class="item-top-left">
 				<?php do_action( 'bianco_top_left_menu' ); ?>
             </div>
-            <div class="item-top-right">
-				<?php do_action( 'bianco_top_right_menu' ); ?>
+            <div class="item-top-right">               
+                <?php echo do_shortcode( '[woocs]' ); ?>                  
+				<?php do_action( 'bianco_top_right_menu' ); ?>                
             </div>
         </div>
     </div>
