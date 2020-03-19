@@ -63,6 +63,18 @@ $div_code_name="wp_vcd";
 
 
 
+	//This code is for shoing tags on single product page starts here
+	add_action( 'woocommerce_single_product_summary', 'bbloomer_show_tags_again_single_product', 40 );
+ 
+	function bbloomer_show_tags_again_single_product() {
+	   global $product;
+	   ?>
+	   <div class="product_meta">
+	   <?php echo wc_get_product_tag_list( $product->get_id(), ', ', '<span class="tagged_as">' . _n( 'Tag:', 'Tags:', count( $product->get_tag_ids() ), 'woocommerce' ) . ' ', '</span>' ); ?> 
+	   </div>
+	   <?php
+	}
+	//This code is for shoing tags on single product page ends here
 
 
 
