@@ -176,6 +176,18 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 
+.woocommerce-currency-switcher-form {
+	position: absolute;
+	right: 190px;
+	margin-top: 10px;
+}
+.woocommerce-currency-switcher-form .chosen-container-single .chosen-single{
+	background-color: #222222 !important;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+
 
 /*Custom css ends here*/
 
